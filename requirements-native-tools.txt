@@ -1,0 +1,5 @@
+# Exact official wheel versions/digests from the successful isolated install reports.
+-r requirements-runtime-build.txt
+pipcl==13 --hash=sha256:b32e0d65a403a52eb8c2da546ba5566dff09aab6373e27b9ab5b529694757681
+swig==4.4.1 --hash=sha256:4548c06ea2ed60c91f003bbc3892db58e185f572705653ab1470ca770f70495d
+libclang==18.1.1 --hash=sha256:4dd2d3b82fab35e2bf9ca717d7b63ac990a3519c7e312f19fa8e86dcc712f7fb

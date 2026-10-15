@@ -1,0 +1,298 @@
+[
+  {
+    "path": "upstream/pypdf-6.13.2.tar.gz",
+    "version": "6.13.2",
+    "bytes": 6479250,
+    "sha256": "5a96a17dbdfbf9c2ab24c0a13fa0aba182be22ba6f283098712c16fc242f509f",
+    "url": "https://files.pythonhosted.org/packages/99/0a/48fe05c6bb3aa4bb4d2a4079a383d33c0dfec1edf613a642f07d8b8b5c2e/pypdf-6.13.2.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/pillow-12.2.0.tar.gz",
+    "version": "12.2.0",
+    "bytes": 46987819,
+    "sha256": "a830b1a40919539d07806aa58e1b114df53ddd43213d9c8b75847eee6c0182b5",
+    "url": "https://files.pythonhosted.org/packages/8c/21/c2bcdd5906101a30244eaffc1b6e6ce71a31bd0742a01eb89e660ebfac2d/pillow-12.2.0.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/fonttools-4.63.0.tar.gz",
+    "version": "4.63.0",
+    "bytes": 3597189,
+    "sha256": "caeb583deeb5168e694b65cda8b4ee62abedfa66cf88488734466f2366b9c4e0",
+    "url": "https://files.pythonhosted.org/packages/84/69/c97f2c18e0db87d2c7b15da1974dace76ae938f1cfa22e2727a648b7ed43/fonttools-4.63.0.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/pyinstaller-6.22.3.tar.gz",
+    "version": "6.22.3",
+    "bytes": 4437180,
+    "sha256": "05eb2f5615503e72939a7224d68b4aff572c6b0438ee4a17d0a4b481f399362d",
+    "url": "https://files.pythonhosted.org/packages/63/41/f90302845945abd4ed647933ff5ee7c6ac93983187be67f897b6cb613331/pyinstaller-6.22.3.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/pyinstaller_hooks_contrib-2026.8.tar.gz",
+    "version": "2026.8",
+    "bytes": 176955,
+    "sha256": "4d825786ad7a9b7dbcc52d612748a34562fe273461bcfd88f4d549c594bbf8f9",
+    "url": "https://files.pythonhosted.org/packages/c9/3b/fab1a12a21bf9223af012e5dd002b7d4265683d21d9fabbd0ccb347316e4/pyinstaller_hooks_contrib-2026.8.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/altgraph-0.17.5.tar.gz",
+    "version": "0.17.5",
+    "bytes": 48428,
+    "sha256": "c87b395dd12fabde9c99573a9749d67da8d29ef9de0125c7f536699b4a9bc9e7",
+    "url": "https://files.pythonhosted.org/packages/7e/f8/97fdf103f38fed6792a1601dbc16cc8aac56e7459a9fff08c812d8ae177a/altgraph-0.17.5.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/packaging-26.3.tar.gz",
+    "version": "26.3",
+    "bytes": 313412,
+    "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+    "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/pefile-2024.8.26.tar.gz",
+    "version": "2024.8.26",
+    "bytes": 76008,
+    "sha256": "3ff6c5d8b43e8c37bb6e6dd5085658d658a7a0bdcd20b6a07b1fcfc1c4e9d632",
+    "url": "https://files.pythonhosted.org/packages/03/4f/2750f7f6f025a1507cd3b7218691671eecfd0bbebebe8b39aa0fe1d360b8/pefile-2024.8.26.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/pywin32-ctypes-0.2.3.tar.gz",
+    "version": "0.2.3",
+    "bytes": 29471,
+    "sha256": "d162dc04946d704503b2edc4d55f3dba5c1d539ead017afa00142c38b9885755",
+    "url": "https://files.pythonhosted.org/packages/85/9f/01a1a99704853cb63f253eea009390c88e7131c67e66a0a02099a8c917cb/pywin32-ctypes-0.2.3.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/setuptools-84.0.0.tar.gz",
+    "version": "84.0.0",
+    "bytes": 1168449,
+    "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
+    "url": "https://files.pythonhosted.org/packages/6d/44/f5da03a8ef95d369145c5bb53050e7877c9f3d312e128605fd9504829143/setuptools-84.0.0.tar.gz",
+    "digest_basis": "Published PyPI digest previously verified"
+  },
+  {
+    "path": "upstream/Python-3.13.15.tar.xz",
+    "version": "3.13.15",
+    "bytes": 23160540,
+    "sha256": "1e66a7945a48390ee4c2a4268a0e4185884059a13c4aab6d148aa208deea4a76",
+    "url": "https://www.python.org/ftp/python/3.13.15/Python-3.13.15.tar.xz",
+    "digest_basis": "Official python.org source; published digest verification in original independent source review"
+  },
+  {
+    "path": "upstream/mupdf-1.28.2-source.tar.gz",
+    "version": "1.28.2",
+    "bytes": 68898646,
+    "sha256": "44075a84e329db55b9bef5f342a70fd26d69e48ad1d33cb89d9664581c641156",
+    "url": "https://github.com/ArtifexSoftware/mupdf-downloads/releases/download/1.28.2/mupdf-1.28.2-source.tar.gz",
+    "digest_basis": "Published Artifex release asset digest verified"
+  },
+  {
+    "path": "upstream/pymupdf-12786d12b2962a1d77fd13b103162eddf749644c.tar.gz",
+    "version": "1.28.2 exact wrapper commit",
+    "bytes": 97605163,
+    "sha256": "cd400ac13ecd659631ac96e0d7ec52c5a90829ad64cee46b61ddaaaca10770fb",
+    "url": "https://github.com/pymupdf/PyMuPDF/archive/12786d12b2962a1d77fd13b103162eddf749644c.tar.gz",
+    "digest_basis": "Exact wheel-recorded wrapper commit; Python source matches wheel"
+  },
+  {
+    "path": "upstream/tcl-8.6.15.tar.gz",
+    "version": "8.6.15",
+    "bytes": 11889733,
+    "sha256": "4c23f0dd3efcbe6f3a22c503a68d147617bb30c4f5290f1eb3eaacf0b460440b",
+    "url": "https://github.com/python/cpython-source-deps/archive/tcl-core-8.6.15.0.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/tk-8.6.15.tar.gz",
+    "version": "8.6.15",
+    "bytes": 4629677,
+    "sha256": "0ae56d39bca92865f338529557a1e56d110594184b6dc5a91339c5675751e264",
+    "url": "https://github.com/python/cpython-source-deps/archive/tk-8.6.15.0.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/openssl-3.0.21.tar.gz",
+    "version": "3.0.21",
+    "bytes": 15455325,
+    "sha256": "0349aef1ff9ded3eb23be12c2586e026be5cec3fd40df859e388671d7844fced",
+    "url": "https://github.com/python/cpython-source-deps/archive/openssl-3.0.21.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libffi-3.4.4.tar.gz",
+    "version": "3.4.4",
+    "bytes": 1375889,
+    "sha256": "9d802681adfea27d84cae0487a785fb9caa925bdad44c401b364c59ab2b8edda",
+    "url": "https://github.com/python/cpython-source-deps/archive/libffi-3.4.4.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/bzip2-1.0.8.tar.gz",
+    "version": "1.0.8",
+    "bytes": 818771,
+    "sha256": "ab8d1b0cc087c20d4c32c0e4fcf7d0c733a95da12cedc6d63b3f0a9af07427e2",
+    "url": "https://github.com/python/cpython-source-deps/archive/bzip2-1.0.8.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/xz-cpython-5.2.5.tar.gz",
+    "version": "5.2.5",
+    "bytes": 1744796,
+    "sha256": "a15c168e39e87d750c3dc766edc7f19bdda57dacf01e509678467eace91ad282",
+    "url": "https://github.com/python/cpython-source-deps/archive/xz-5.2.5.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/zlib-1.3.1.tar.gz",
+    "version": "1.3.1",
+    "bytes": 1570732,
+    "sha256": "e3f3fb32564952006eb18b091ca8464740e5eca29d328cfb0b2da22768e0b638",
+    "url": "https://github.com/python/cpython-source-deps/archive/zlib-1.3.1.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/mpdecimal-4.0.0.tar.gz",
+    "version": "4.0.0",
+    "bytes": 319629,
+    "sha256": "338fac3fb8cdd60f406b6326431338756f58a8af94229ffd9bf1e7c2b1ad71ca",
+    "url": "https://github.com/python/cpython-source-deps/archive/mpdecimal-4.0.0.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/freetype-2.14.3.tar.gz",
+    "version": "2.14.3",
+    "bytes": 4134916,
+    "sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1",
+    "url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.14.3.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/lcms2-2.18.tar.gz",
+    "version": "2.18",
+    "bytes": 5599928,
+    "sha256": "ee67be3566f459362c1ee094fde2c159d33fa0390aa4ed5f5af676f9e5004347",
+    "url": "https://sourceforge.net/projects/lcms/files/lcms/2.18/lcms2-2.18.tar.gz/download",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libavif-1.4.1.tar.gz",
+    "version": "1.4.1",
+    "bytes": 14528943,
+    "sha256": "d4aea31a4becb3273ba7968221be2e48148ba05eb8a68d14e671963e17785648",
+    "url": "https://github.com/AOMediaCodec/libavif/archive/v1.4.1.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libjpeg-turbo-3.1.4.1.tar.gz",
+    "version": "3.1.4.1",
+    "bytes": 2528617,
+    "sha256": "ecae8008e2cc9ade2f2c1bb9d5e6d4fb73e7c433866a056bd82980741571a022",
+    "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.1.4.1/libjpeg-turbo-3.1.4.1.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/openjpeg-2.5.4.tar.gz",
+    "version": "2.5.4",
+    "bytes": 2157028,
+    "sha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a",
+    "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.4.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/zlib-ng-2.3.3.tar.gz",
+    "version": "2.3.3",
+    "bytes": 2447397,
+    "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+    "url": "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.3.3.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/tiff-4.7.1.tar.gz",
+    "version": "4.7.1",
+    "bytes": 4000609,
+    "sha256": "f698d94f3103da8ca7438d84e0344e453fe0ba3b7486e04c5bf7a9a3fabe9b69",
+    "url": "https://download.osgeo.org/libtiff/tiff-4.7.1.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/harfbuzz-13.2.1.tar.xz",
+    "version": "13.2.1",
+    "bytes": 19508960,
+    "sha256": "6695da3eb7e1be0aa3092fe4d81433a33b47f4519259c759d729e3a9a55c1429",
+    "url": "https://github.com/harfbuzz/harfbuzz/releases/download/13.2.1/harfbuzz-13.2.1.tar.xz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libpng-1.6.56.tar.gz",
+    "version": "1.6.56",
+    "bytes": 1577915,
+    "sha256": "8f91e941a07fb1069ebb3855278f82a849e6af14ca05821e14ec3d5348697ea5",
+    "url": "https://sourceforge.net/projects/libpng/files/libpng16/1.6.56/libpng-1.6.56.tar.gz/download",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/brotli-1.2.0.tar.gz",
+    "version": "1.2.0",
+    "bytes": 646315,
+    "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec",
+    "url": "https://github.com/google/brotli/archive/refs/tags/v1.2.0.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/xz-pillow-5.8.3.tar.gz",
+    "version": "5.8.3",
+    "bytes": 2771455,
+    "sha256": "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0",
+    "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.3/xz-5.8.3.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/expat-2.8.2.tar.xz",
+    "version": "2.8.2",
+    "bytes": 515504,
+    "sha256": "3ad89b8588e6644bd4e49981480d48b21289eebbcd4f0a1a4afb1c29f99b6ab4",
+    "url": "https://github.com/libexpat/libexpat/releases/download/R_2_8_2/expat-2.8.2.tar.xz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libwebp-official-git-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "bytes": 3845556,
+    "sha256": "1876ba29e2a16d72c4309114b1578a46b81ed8f5461c2cdeb3b51555c406bf24",
+    "url": "https://chromium.googlesource.com/webm/libwebp/+archive/refs/tags/v1.6.0.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/aom-3.13.2.tar.gz",
+    "version": "3.13.2",
+    "bytes": 6325517,
+    "sha256": "cc5dafdd9a05d324527104cd5ee22e04d292a3d1f319a91a970715a0609f0e8b",
+    "url": "https://aomedia.googlesource.com/aom/+archive/refs/tags/v3.13.2.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/dav1d-1.5.3.tar.gz",
+    "version": "1.5.3",
+    "bytes": 1713950,
+    "sha256": "cbe212b02faf8c6eed5b6d55ef8a6e363aaab83f15112e960701a9c3df813686",
+    "url": "https://code.videolan.org/videolan/dav1d/-/archive/1.5.3/dav1d-1.5.3.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  },
+  {
+    "path": "upstream/libyuv-6067afde563c3946eebd94f146b3824ab7a97a9c.tar.gz",
+    "version": "6067afde563c3946eebd94f146b3824ab7a97a9c",
+    "bytes": 593943,
+    "sha256": "4bc799f5e717bdf2ab5994661707b3a4ac8721689ea6966f943592eaffddca13",
+    "url": "https://chromium.googlesource.com/libyuv/libyuv/+archive/6067afde563c3946eebd94f146b3824ab7a97a9c.tar.gz",
+    "digest_basis": "Local integrity hash; official source provider/recipe"
+  }
+]

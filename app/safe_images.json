@@ -1,0 +1,37 @@
+{
+  "ae587d2d11fc4db4e7debecd79bf001cc8b6ce633a64452512697ffabc9a9b7d": {
+    "sample": "cas.pdf",
+    "width": 1409,
+    "height": 249,
+    "description": "Visually reviewed public static NBME logo/header, green legend swatch or generic illustrative score graph",
+    "soft_mask_xref": 0
+  },
+  "5d65d816f14f9a2905de4c7550b3cbc2063c8c5be703792298565ae8d2bafa4f": {
+    "sample": "cbse.pdf",
+    "width": 2250,
+    "height": 375,
+    "description": "Visually reviewed public static NBME logo/header, green legend swatch or generic illustrative score graph",
+    "soft_mask_xref": 0
+  },
+  "6459a83a52a616c4df3d4806272250eac146a38be98c01d80b221806d889689c": {
+    "sample": "cbse.pdf",
+    "width": 31,
+    "height": 31,
+    "description": "Visually reviewed public static NBME logo/header, green legend swatch or generic illustrative score graph",
+    "soft_mask_xref": 0
+  },
+  "802e3def2eca9641d8c7e755e0078af7298310900ebf32046c9973dad2d80f66": {
+    "sample": "cbssa.pdf",
+    "width": 340,
+    "height": 149,
+    "description": "Visually reviewed public static NBME logo/header, green legend swatch or generic illustrative score graph",
+    "soft_mask_xref": 48
+  },
+  "ef3d28342f91a16cf917fdf983a3341d1da34f634bfd3ccc887635d2906731b3": {
+    "sample": "cbssa.pdf",
+    "width": 265,
+    "height": 264,
+    "description": "Visually reviewed public static NBME logo/header, green legend swatch or generic illustrative score graph",
+    "soft_mask_xref": 16
+  }
+}

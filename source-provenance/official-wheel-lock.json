@@ -1,0 +1,135 @@
+[
+  {
+    "package": "altgraph",
+    "version": "0.17.5",
+    "wheel_sha256": "f3a22400bce1b0c701683820ac4f3b159cd301acab067c51c653e06961600597",
+    "official_url": "https://files.pythonhosted.org/packages/a9/ba/000a1996d4308bc65120167c21241a3b205464a2e0b58deda26ae8ac21d1/altgraph-0.17.5-py2.py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "fonttools",
+    "version": "4.63.0",
+    "wheel_sha256": "ba04cb5891d4c0c21b6da95eda8d7b090021508a294fff33464fc7d241e0856b",
+    "official_url": "https://files.pythonhosted.org/packages/92/46/5177b01f3b4abfdd4409f31cca4ab279c9343a26efbe9ec78c97fc612e02/fonttools-4.63.0-cp313-cp313-win_amd64.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "packaging",
+    "version": "26.3",
+    "wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "official_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pefile",
+    "version": "2024.8.26",
+    "wheel_sha256": "76f8b485dcd3b1bb8166f1128d395fa3d87af26360c2358fb75b80019b957c6f",
+    "official_url": "https://files.pythonhosted.org/packages/54/16/12b82f791c7f50ddec566873d5bdd245baa1491bac11d15ffb98aecc8f8b/pefile-2024.8.26-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pillow",
+    "version": "12.2.0",
+    "wheel_sha256": "390ede346628ccc626e5730107cde16c42d3836b89662a115a921f28440e6a3b",
+    "official_url": "https://files.pythonhosted.org/packages/3f/82/8a3739a5e470b3c6cbb1d21d315800d8e16bff503d1f16b03a4ec3212786/pillow-12.2.0-cp313-cp313-win_amd64.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pyinstaller",
+    "version": "6.22.3",
+    "wheel_sha256": "500bd58c7bf7e584a8435adccbd763a0b918d5c12b08d74ff50fd79b2915458b",
+    "official_url": "https://files.pythonhosted.org/packages/24/83/c5422204772a27aef643280fdc887b7ef55679989096b21dceb1b9625fc4/pyinstaller-6.22.3-py3-none-win_amd64.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pyinstaller-hooks-contrib",
+    "version": "2026.8",
+    "wheel_sha256": "6d21d65323ea4467753afc21f52d7d0e69416ae8101dd88269bf273ad48db084",
+    "official_url": "https://files.pythonhosted.org/packages/8f/f1/3eee0263b487e571aed9204257b45bc2a0b6fec34d0a1adade4d8d8a968c/pyinstaller_hooks_contrib-2026.8-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pymupdf",
+    "version": "1.28.2",
+    "wheel_sha256": "ebd244918798502d7b4504c90410d1711a4d7675a32584ca30f1bab419ecbffe",
+    "official_url": "https://files.pythonhosted.org/packages/4a/61/d563bbccba262f9dd6d2d35ccb72593648184d886188efb12d9ce8f34dd6/pymupdf-1.28.2-cp310-abi3-win_amd64.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pypdf",
+    "version": "6.13.2",
+    "wheel_sha256": "6eeb9e57693f29d41bd01255d02660cbbb41fd7fc818a982677389a35e4f2083",
+    "official_url": "https://files.pythonhosted.org/packages/cb/17/378943705992f74e451a06de3401ce68e3213763c81e44d0614559c45599/pypdf-6.13.2-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pywin32-ctypes",
+    "version": "0.2.3",
+    "wheel_sha256": "8a1513379d709975552d202d942d9837758905c8d01eb82b8bcc30918929e7b8",
+    "official_url": "https://files.pythonhosted.org/packages/de/3d/8161f7711c017e01ac9f008dfddd9410dff3674334c233bde66e7ba65bbf/pywin32_ctypes-0.2.3-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "setuptools",
+    "version": "84.0.0",
+    "wheel_sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+    "official_url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+    "purpose": "requirements-runtime-build.txt"
+  },
+  {
+    "package": "pytest",
+    "version": "9.1.1",
+    "wheel_sha256": "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c",
+    "official_url": "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl",
+    "purpose": "requirements-test.txt"
+  },
+  {
+    "package": "pluggy",
+    "version": "1.6.0",
+    "wheel_sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+    "official_url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl",
+    "purpose": "requirements-test.txt"
+  },
+  {
+    "package": "colorama",
+    "version": "0.4.6",
+    "wheel_sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+    "official_url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+    "purpose": "requirements-test.txt"
+  },
+  {
+    "package": "iniconfig",
+    "version": "2.3.1",
+    "wheel_sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7",
+    "official_url": "https://files.pythonhosted.org/packages/56/43/4ca9e49d27a1fcf6bece6f6aec0ea46bb9112489b93d4b688fb415457bdb/iniconfig-2.3.1-py3-none-any.whl",
+    "purpose": "requirements-test.txt"
+  },
+  {
+    "package": "Pygments",
+    "version": "2.21.0",
+    "wheel_sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+    "official_url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+    "purpose": "requirements-test.txt"
+  },
+  {
+    "package": "pipcl",
+    "version": "13",
+    "wheel_sha256": "b32e0d65a403a52eb8c2da546ba5566dff09aab6373e27b9ab5b529694757681",
+    "official_url": "https://files.pythonhosted.org/packages/b4/4b/4930e6df579dcd239585ec8a477e57c1158c9e8e1f956d27669760de458a/pipcl-13-py3-none-any.whl",
+    "purpose": "requirements-native-tools.txt"
+  },
+  {
+    "package": "swig",
+    "version": "4.4.1",
+    "wheel_sha256": "4548c06ea2ed60c91f003bbc3892db58e185f572705653ab1470ca770f70495d",
+    "official_url": "https://files.pythonhosted.org/packages/a7/2f/7a6b14eea6d0247d3f803649f50df3cf3905714bd82f2c386fcfde9544f3/swig-4.4.1-py3-none-win_amd64.whl",
+    "purpose": "requirements-native-tools.txt"
+  },
+  {
+    "package": "libclang",
+    "version": "18.1.1",
+    "wheel_sha256": "4dd2d3b82fab35e2bf9ca717d7b63ac990a3519c7e312f19fa8e86dcc712f7fb",
+    "official_url": "https://files.pythonhosted.org/packages/0b/2d/3f480b1e1d31eb3d6de5e3ef641954e5c67430d5ac93b7fa7e07589576c7/libclang-18.1.1-py2.py3-none-win_amd64.whl",
+    "purpose": "requirements-native-tools.txt"
+  }
+]

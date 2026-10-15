@@ -1,0 +1,187 @@
+[
+  {
+    "archive": "upstream/pypdf-6.13.2.tar.gz",
+    "vendor_pdf_fixtures": 68,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/pillow-12.2.0.tar.gz",
+    "vendor_pdf_fixtures": 2,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/fonttools-4.63.0.tar.gz",
+    "vendor_pdf_fixtures": 4,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/pyinstaller-6.22.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 1
+  },
+  {
+    "archive": "upstream/pyinstaller_hooks_contrib-2026.8.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/altgraph-0.17.5.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/packaging-26.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/pefile-2024.8.26.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/pywin32-ctypes-0.2.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/setuptools-84.0.0.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/Python-3.13.15.tar.xz",
+    "vendor_pdf_fixtures": 1,
+    "vendor_key_certificate_fixtures": 26
+  },
+  {
+    "archive": "upstream/mupdf-1.28.2-source.tar.gz",
+    "vendor_pdf_fixtures": 6,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/pymupdf-12786d12b2962a1d77fd13b103162eddf749644c.tar.gz",
+    "vendor_pdf_fixtures": 179,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/tcl-8.6.15.tar.gz",
+    "vendor_pdf_fixtures": 2,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/tk-8.6.15.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/openssl-3.0.21.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 765
+  },
+  {
+    "archive": "upstream/libffi-3.4.4.tar.gz",
+    "vendor_pdf_fixtures": 1,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/bzip2-1.0.8.tar.gz",
+    "vendor_pdf_fixtures": 1,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/xz-cpython-5.2.5.tar.gz",
+    "vendor_pdf_fixtures": 14,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/zlib-1.3.1.tar.gz",
+    "vendor_pdf_fixtures": 2,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/mpdecimal-4.0.0.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/freetype-2.14.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/lcms2-2.18.tar.gz",
+    "vendor_pdf_fixtures": 5,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/libavif-1.4.1.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/libjpeg-turbo-3.1.4.1.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/openjpeg-2.5.4.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/zlib-ng-2.3.3.tar.gz",
+    "vendor_pdf_fixtures": 3,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/tiff-4.7.1.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/harfbuzz-13.2.1.tar.xz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/libpng-1.6.56.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/brotli-1.2.0.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/xz-pillow-5.8.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/expat-2.8.2.tar.xz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/libwebp-official-git-1.6.0.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/aom-3.13.2.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/dav1d-1.5.3.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  },
+  {
+    "archive": "upstream/libyuv-6067afde563c3946eebd94f146b3824ab7a97a9c.tar.gz",
+    "vendor_pdf_fixtures": 0,
+    "vendor_key_certificate_fixtures": 0
+  }
+]

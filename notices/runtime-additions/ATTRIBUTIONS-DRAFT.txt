@@ -1,0 +1,19 @@
+Prepared attribution additions for a future cleared installer. These additions
+are not yet embedded in the immutable evaluation MSI and are not an application
+license grant. Preserve the complete applicable upstream license texts too.
+
+This software is based in part on the work of the FreeType Team.
+FreeType Project: https://freetype.org/
+
+This software is based in part on the work of the Independent JPEG Group.
+
+This software includes Raqm. Its complete MIT copyright/permission/disclaimer
+text is in Raqm-0.10.3-COPYING.txt.
+
+The application uses CPython, Tcl/Tk, Pillow and their incorporated components.
+The native component inventory identifies the version-specific texts prepared
+from official sources. The definitive installer notice set must incorporate
+all applicable notices after exact binary/source and licensing clearance.
+
+No claim is made that FriBidi/Tesseract is included. The current MSI does not
+bundle either; an existing external FriBidi DLL was found on the test host.

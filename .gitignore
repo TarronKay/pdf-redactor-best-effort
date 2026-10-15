@@ -1,0 +1,12 @@
+/upstream/
+/corresponding-source/
+/build-env/
+/build/
+/dist/
+/artifacts/
+/build-test-temp/
+__pycache__/
+.pytest_cache/
+*.pdf
+*.msi
+*.zip

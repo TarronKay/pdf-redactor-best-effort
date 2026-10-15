@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "BUILDING.md",
+    "bytes": 4210,
+    "sha256": "93f26153cd8e3e5bcc7189d6f8a1d4814a2b9eac64fee7877619d1bc135518a3"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 35181,
+    "sha256": "282751b8c98ee9e445346eb57a992c9ecbe25ed8dd554df046777313e19b10f9"
+  },
+  {
+    "path": "LICENSING.md",
+    "bytes": 1759,
+    "sha256": "308a5a45fab14fbd411171d82b47a7f41dbde097d705910ef69a666a13055bbf"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3434,
+    "sha256": "ee0699c1164181b31fc6c674d280c04e4d0c7395c2dce6d53f88bcf4c36ac9bf"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 1203,
+    "sha256": "54063ba3ccc55bd55d18435ee8ce597d9d58b2157e13ab2c5b4c2a5457918f1e"
+  },
+  {
+    "path": "SOURCE-INFO.txt",
+    "bytes": 1026,
+    "sha256": "aa2b6d01836037c13d2ece348c2097e2e001a94968fb8fbfd44db375224a843a"
+  },
+  {
+    "path": "app/best_effort_app.py",
+    "bytes": 8353,
+    "sha256": "c1c4725e331d308b31eff1bf2d80f9a14ecb0ae8374334096c28088723b4c707"
+  },
+  {
+    "path": "app/best_effort_controller.py",
+    "bytes": 1302,
+    "sha256": "3f08bf701ee827641a8572bdc335b8a330a17b9e1571524add534fbf6109777c"
+  },
+  {
+    "path": "app/best_effort_engine.py",
+    "bytes": 13577,
+    "sha256": "e4b448fb44ee3dc2d5a8dd7f42e1b9c290ad5d040762c501f476ce308590b2ad"
+  },
+  {
+    "path": "app/best_effort_worker.py",
+    "bytes": 1979,
+    "sha256": "3da136361059906436619868dc24eb9305b402c37a8289682187b8fe4efab0a1"
+  },
+  {
+    "path": "app/engine.py",
+    "bytes": 7509,
+    "sha256": "bcf1ea6204ef748215ab81433c51706c693bad0a76e4eecacc5e2232723e8c47"
+  },
+  {
+    "path": "app/export_files.py",
+    "bytes": 5255,
+    "sha256": "312729b2065efbd9bed01af4921d68af5faee2bd438eaf084b2454c9d1d33f2d"
+  },
+  {
+    "path": "app/identifier_matching.py",
+    "bytes": 1689,
+    "sha256": "4672cb8914acccd0d119eb0a0cb77baaa84833a49d59fd3cdfdd8cdea78f8328"
+  },
+  {
+    "path": "app/layout_suggestions.py",
+    "bytes": 6230,
+    "sha256": "1d7f8b7db36a0f4d35c0000a93ea77f83cb5bc24f69b0689932f298057272d30"
+  },
+  {
+    "path": "app/preview_cache.py",
+    "bytes": 2041,
+    "sha256": "3e933d5fc10c798917bf1deadb5c0434b2ca4728ae18e673d87efb803f217cc4"
+  },
+  {
+    "path": "app/release_gui.py",
+    "bytes": 1478,
+    "sha256": "cd3cac2707f84552d8126632f13e717103cc45bdf0894f96630fdfcc31fb862f"
+  },
+  {
+    "path": "app/release_worker.py",
+    "bytes": 160,
+    "sha256": "ab2f0558a525fb63465e7cb436fc319d2877ed5f9f27a8645ec6d78dab7e3d0d"
+  },
+  {
+    "path": "app/resource_limits.py",
+    "bytes": 2759,
+    "sha256": "2be1759cf7bc648d3386a0e06dd7ed7286972bac7a5b0ee1fd71f8ddd2de622c"
+  },
+  {
+    "path": "app/review_state.py",
+    "bytes": 1019,
+    "sha256": "0584a0a2280d33462615de9b578a97a6c9e5652ad682561d4ff9c01c0bdc514a"
+  },
+  {
+    "path": "app/safe_images.json",
+    "bytes": 1501,
+    "sha256": "493af351669b0cc9d555a0dc27a400b6b3db9eb4f739203771c1f0c0b27a2c1d"
+  },
+  {
+    "path": "app/ui_base.py",
+    "bytes": 8784,
+    "sha256": "66a90d850b2ce79338adc5c3db5a4e5f2c948424fdf6bf756a2a287ea4b2d444"
+  },
+  {
+    "path": "app/ui_workflow.py",
+    "bytes": 10017,
+    "sha256": "c3c2c4e3f2d52f69bbc70829ac92bdb1c1e5472be0da71e5fe275e27b60e8b92"
+  },
+  {
+    "path": "build_frozen.py",
+    "bytes": 1621,
+    "sha256": "547e9a0dd6d4152599d23acf3f2f9da137cf0fdd5ce6c3ec7a02a9bf00af45eb"
+  },
+  {
+    "path": "build_msi.py",
+    "bytes": 16287,
+    "sha256": "6cc0948508de49230e9e31f5a0f156dc9db311610505079bad57347c5eff0bec"
+  },
+  {
+    "path": "licensed-source-manifest.json",
+    "bytes": 2950,
+    "sha256": "57271084c36e643de8a936ba960ae05647d955d85b9a63c69435ab8970e48501"
+  },
+  {
+    "path": "make_corresponding_source.py",
+    "bytes": 1878,
+    "sha256": "357df8abfa38cd3b7f768c08efec4179e0afaea39e6ffc5a2a6de55f21be5a35"
+  },
+  {
+    "path": "msi_ui_preflight.py",
+    "bytes": 4358,
+    "sha256": "e753704c6a9afe6241fea94c0c28c3b9592ae3a5e0a40608077b97cf7921e67a"
+  },
+  {
+    "path": "notices/Microsoft/CPython-3.13.15-Windows-additional-conditions.txt",
+    "bytes": 1738,
+    "sha256": "3c71b3ae243121f6f227374cd1ef7c59ed07b1969b330d0e947f91a3a1b3fd73"
+  },
+  {
+    "path": "notices/Microsoft/Microsoft-VC-V14-2026-License.docx",
+    "bytes": 39553,
+    "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783"
+  },
+  {
+    "path": "notices/Microsoft/Microsoft-VC-V14-2026-License.txt",
+    "bytes": 11943,
+    "sha256": "fcd3649a1ea1ed04d849521aca4950ca3db98b3a69f542b51d94cf71f4f17b64"
+  },
+  {
+    "path": "notices/Microsoft/current-runtime-terms-hashes.json",
+    "bytes": 308,
+    "sha256": "f5b8f7170eb643d7d256e62716924a7a4fd192bf6c1c25b87d128637ee690c77"
+  },
+  {
+    "path": "notices/Microsoft/reference-only/Microsoft-VS2026-Community-License.docx",
+    "bytes": 69066,
+    "sha256": "02ac07637f4a513a807cd3721c7620433fc483bc049d25784b0c10c54b05e1fb"
+  },
+  {
+    "path": "notices/README.md",
+    "bytes": 3160,
+    "sha256": "43091b74f7c1fbc8b4699b0326bb5def3b68cdae9842ef7b56c504f524aead67"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/LICENSE",
+    "bytes": 1316,
+    "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/SVT-AV1/LICENSE.md",
+    "bytes": 1709,
+    "sha256": "0acc2fcb27472bdc9aaf8b71f37055bbdac4f54671b7d922f241bd7fcd0dd3e6"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/fastfeat/LICENSE",
+    "bytes": 1506,
+    "sha256": "043dcfd059386f9facd376351b2bd79325778744aa442177390cdfcca54babed"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/googletest/src/LICENSE",
+    "bytes": 1475,
+    "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/highway/LICENSE-BSD3",
+    "bytes": 1515,
+    "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/libwebm/LICENSE.TXT",
+    "bytes": 1496,
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/libyuv/LICENSE",
+    "bytes": 1506,
+    "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/vector/LICENSE",
+    "bytes": 1084,
+    "sha256": "ff6c857ce2708e87701323078aef115c1872a1f80a9649f86dc899b48083bc60"
+  },
+  {
+    "path": "notices/additional-native-sources/aom/third_party/x86inc/LICENSE",
+    "bytes": 936,
+    "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+  },
+  {
+    "path": "notices/additional-native-sources/brotli/brotli-1.2.0/LICENSE",
+    "bytes": 1084,
+    "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94"
+  },
+  {
+    "path": "notices/additional-native-sources/bzip2/cpython-source-deps-bzip2-1.0.8/LICENSE",
+    "bytes": 1896,
+    "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+  },
+  {
+    "path": "notices/additional-native-sources/cpython/Python-3.13.15/Doc/license.rst",
+    "bytes": 58181,
+    "sha256": "952ac05720d7f1dcb63589b35eb0931b1442eb250230a4ad31198eddf0ad6abc"
+  },
+  {
+    "path": "notices/additional-native-sources/cpython/Python-3.13.15/Modules/expat/COPYING",
+    "bytes": 1144,
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+  },
+  {
+    "path": "notices/additional-native-sources/dav1d/dav1d-1.5.3/COPYING",
+    "bytes": 1317,
+    "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5"
+  },
+  {
+    "path": "notices/additional-native-sources/expat/expat-2.8.2/COPYING",
+    "bytes": 1144,
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+  },
+  {
+    "path": "notices/additional-native-sources/freetype/freetype-2.14.3/LICENSE.TXT",
+    "bytes": 2149,
+    "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+  },
+  {
+    "path": "notices/additional-native-sources/freetype/freetype-2.14.3/docs/FTL.TXT",
+    "bytes": 6743,
+    "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+  },
+  {
+    "path": "notices/additional-native-sources/freetype/freetype-2.14.3/docs/GPLv2.TXT",
+    "bytes": 17994,
+    "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+  },
+  {
+    "path": "notices/additional-native-sources/harfbuzz/harfbuzz-13.2.1/COPYING",
+    "bytes": 1971,
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  {
+    "path": "notices/additional-native-sources/harfbuzz/harfbuzz-13.2.1/src/ms-use/COPYING",
+    "bytes": 1141,
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "path": "notices/additional-native-sources/harfbuzz/harfbuzz-13.2.1/test/COPYING",
+    "bytes": 4370,
+    "sha256": "9b35b8485f69cd298fccbb3c40a827dc06cf1185553bef827903497d2944a8d7"
+  },
+  {
+    "path": "notices/additional-native-sources/harfbuzz/harfbuzz-13.2.1/test/shape/data/aots/COPYING",
+    "bytes": 593,
+    "sha256": "f55f74bf740db07bb032a90aa74af4307adea3d489c1ccba12453cf0c0a764cb"
+  },
+  {
+    "path": "notices/additional-native-sources/harfbuzz/harfbuzz-13.2.1/test/shape/data/text-rendering-tests/COPYING",
+    "bytes": 584,
+    "sha256": "d24039e4d22c9bc72096f6174374539d92a3d6e1163938546ec59179fe095e6f"
+  },
+  {
+    "path": "notices/additional-native-sources/lcms2/lcms2-2.18/LICENSE",
+    "bytes": 1080,
+    "sha256": "6dbd60437f8ef91d8de1f08ad75882547fd4931bfcc3566a0735f28db1484d31"
+  },
+  {
+    "path": "notices/additional-native-sources/lcms2/lcms2-2.18/plugins/fast_float/COPYING.GPL3",
+    "bytes": 35146,
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+  },
+  {
+    "path": "notices/additional-native-sources/lcms2/lcms2-2.18/plugins/threaded/COPYING.GPL3",
+    "bytes": 35146,
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+  },
+  {
+    "path": "notices/additional-native-sources/lcms2/lcms2-2.18/utils/jpgicc/LICENSE_iccjpeg",
+    "bytes": 3234,
+    "sha256": "8baac37d14eed89b82ffcb041677dd701164eb5cc0f26e165fe47eb11afa0dca"
+  },
+  {
+    "path": "notices/additional-native-sources/libavif/libavif-1.4.1/LICENSE",
+    "bytes": 20415,
+    "sha256": "165abf92cc04b39e80d29cadea7a6a7e8fddf59407d4ad2616507a7ebe8216f9"
+  },
+  {
+    "path": "notices/additional-native-sources/libffi/cpython-source-deps-libffi-3.4.4/LICENSE",
+    "bytes": 1132,
+    "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388"
+  },
+  {
+    "path": "notices/additional-native-sources/libffi/cpython-source-deps-libffi-3.4.4/LICENSE-BUILDTOOLS",
+    "bytes": 18698,
+    "sha256": "e67978cd18816c0cb7d29aaaacde7b7447402c2fb321a051698890a8eaedda94"
+  },
+  {
+    "path": "notices/additional-native-sources/libjpeg-turbo/libjpeg-turbo-3.1.4.1/LICENSE.md",
+    "bytes": 5622,
+    "sha256": "e10114e6e40f3d0311c401ca25245ac5ef459a43c20f976fd63f03e816f5741f"
+  },
+  {
+    "path": "notices/additional-native-sources/libjpeg-turbo/libjpeg-turbo-3.1.4.1/README.ijg",
+    "bytes": 12799,
+    "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+  },
+  {
+    "path": "notices/additional-native-sources/libjpeg-turbo/libjpeg-turbo-3.1.4.1/java/doc/legal/LICENSE",
+    "bytes": 19274,
+    "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+  },
+  {
+    "path": "notices/additional-native-sources/libjpeg-turbo/libjpeg-turbo-3.1.4.1/release/License.rtf",
+    "bytes": 2178,
+    "sha256": "d26120ab237f87dea10aa4fa7fd4243cadffd26e54eb2f3903d5fb0f8ed336b2"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/LICENSE",
+    "bytes": 5345,
+    "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/ci/LICENSE_MIT.txt",
+    "bytes": 1036,
+    "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/contrib/gregbook/COPYING",
+    "bytes": 18097,
+    "sha256": "d6cb0e9e560f51085556949a84af12b79a00f10ab8b66c752537faf7cd665572"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/contrib/gregbook/LICENSE",
+    "bytes": 2373,
+    "sha256": "b6a03c1803eb58ffb1f1278d5c7d4096c4c116e66dce8a7553e8c77d163c3438"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/contrib/pngexif/LICENSE_MIT.txt",
+    "bytes": 1036,
+    "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+  },
+  {
+    "path": "notices/additional-native-sources/libpng/libpng-1.6.56/contrib/pngminus/LICENSE.txt",
+    "bytes": 1164,
+    "sha256": "1806f1f10d393e9e377b3a8d1b968452b54f1a90378f14eeef45426946ace330"
+  },
+  {
+    "path": "notices/additional-native-sources/libwebp-official-git/COPYING",
+    "bytes": 1496,
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "path": "notices/additional-native-sources/libyuv/LICENSE",
+    "bytes": 1506,
+    "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+  },
+  {
+    "path": "notices/additional-native-sources/mpdecimal/cpython-source-deps-mpdecimal-4.0.0/COPYRIGHT.txt",
+    "bytes": 1285,
+    "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2"
+  },
+  {
+    "path": "notices/additional-native-sources/mpdecimal/cpython-source-deps-mpdecimal-4.0.0/doc/COPYRIGHT.txt",
+    "bytes": 2943,
+    "sha256": "25329ef0e2a8823b88786a39f168304a65a3138f720ab39ffc1e9fbee67b74a9"
+  },
+  {
+    "path": "notices/additional-native-sources/openjpeg/openjpeg-2.5.4/LICENSE",
+    "bytes": 2112,
+    "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+  },
+  {
+    "path": "notices/additional-native-sources/openjpeg/openjpeg-2.5.4/src/bin/wx/OPJViewer/source/license.txt",
+    "bytes": 1683,
+    "sha256": "8081c33f6953950dcf424aa844714658b73ada0fcaea16e4487f5fa07ef0960d"
+  },
+  {
+    "path": "notices/additional-native-sources/openjpeg/openjpeg-2.5.4/thirdparty/astyle/LICENSE.md",
+    "bytes": 1094,
+    "sha256": "2e8480e753b7a1d100c80920f4250b1bc9f93a18c6a5953c42b11445218cd0fb"
+  },
+  {
+    "path": "notices/additional-native-sources/openjpeg/openjpeg-2.5.4/thirdparty/liblcms2/COPYING",
+    "bytes": 1078,
+    "sha256": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a"
+  },
+  {
+    "path": "notices/additional-native-sources/openjpeg/openjpeg-2.5.4/thirdparty/libpng/LICENSE",
+    "bytes": 5345,
+    "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+  },
+  {
+    "path": "notices/additional-native-sources/openssl/cpython-source-deps-openssl-3.0.21/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "path": "notices/additional-native-sources/openssl/cpython-source-deps-openssl-3.0.21/external/perl/Text-Template-1.56/LICENSE",
+    "bytes": 18412,
+    "sha256": "9837f05336ef3cbacb6a96e1672a0426d81ad01191f214b8d48e22ca62338181"
+  },
+  {
+    "path": "notices/additional-native-sources/openssl/cpython-source-deps-openssl-3.0.21/util/perl/OpenSSL/copyright.pm",
+    "bytes": 1145,
+    "sha256": "04213b69dbebc8ba0dd8a6216af1d9422f9b63619c1cf2f1d8aa107b83bbb608"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/compat/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/compat/zlib/LICENSE",
+    "bytes": 1002,
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/compat/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+    "bytes": 1359,
+    "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/doc/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/library/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/libtommath/LICENSE",
+    "bytes": 1257,
+    "sha256": "2fa64b163659f41965c9815882a8296d3d03ff546b76153e11445f9bdecf955a"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/macosx/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/itcl4.3.0/doc/license.terms",
+    "bytes": 1513,
+    "sha256": "ad02cfa25db921ee30a1ab68d30e2ad8bf2e174c394237eb55ddd6968ded8032"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/itcl4.3.0/license.terms",
+    "bytes": 2503,
+    "sha256": "b61edfaeead97546bc62b1f205b046f2e440b83bfc517bc0932b93bc3d505865"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/sqlite3.45.3/license.terms",
+    "bytes": 257,
+    "sha256": "66e056b6e8687f32af30d5187611b98b12a8f46f07aaf62f43585f276e8f0ac9"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/tdbc1.1.9/license.terms",
+    "bytes": 2157,
+    "sha256": "fafd6456aa4b7c80c190df86de5bdfab82c8c227a0c348662432c75ceeb2238d"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/tdbcmysql1.1.9/license.terms",
+    "bytes": 2157,
+    "sha256": "fafd6456aa4b7c80c190df86de5bdfab82c8c227a0c348662432c75ceeb2238d"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/tdbcodbc1.1.9/license.terms",
+    "bytes": 2157,
+    "sha256": "fafd6456aa4b7c80c190df86de5bdfab82c8c227a0c348662432c75ceeb2238d"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/tdbcpostgres1.1.9/license.terms",
+    "bytes": 2157,
+    "sha256": "d3aa1cf53b96e69469d46c62bceeebadaa3ecb9699b73962bb207246f4288a08"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/tdbcsqlite3-1.1.9/license.terms",
+    "bytes": 2166,
+    "sha256": "37186e29fd02702179f7c5e9fc630840429319281fcf5a282caaf7fcb0a1c7f4"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/pkgs/thread2.8.10/license.terms",
+    "bytes": 2231,
+    "sha256": "0a03981c40f7813ce6ddbdfce9882020bcfd696ea044b21ef07619ed9b86abae"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/tests/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tcl/cpython-source-deps-tcl-core-8.6.15.0/win/license.terms",
+    "bytes": 2255,
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "notices/additional-native-sources/tiff/tiff-4.7.1/LICENSE.md",
+    "bytes": 2416,
+    "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade"
+  },
+  {
+    "path": "notices/additional-native-sources/tiff/tiff-4.7.1/doc/html-prebuilt/_sources/project/license.rst.txt",
+    "bytes": 1181,
+    "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+  },
+  {
+    "path": "notices/additional-native-sources/tiff/tiff-4.7.1/doc/html-prebuilt/project/license.html",
+    "bytes": 5718,
+    "sha256": "c5bc827b485b77932fd610bbedf8ec7fe9fbbc6fa6e9cf944e9c5a7446e885a6"
+  },
+  {
+    "path": "notices/additional-native-sources/tiff/tiff-4.7.1/doc/project/license.rst",
+    "bytes": 1181,
+    "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/compat/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/doc/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/library/demos/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/library/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/macosx/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/tests/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/unix/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/win/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/xlib/X11/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/tk/cpython-source-deps-tk-8.6.15.0/xlib/license.terms",
+    "bytes": 2267,
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-cpython/cpython-source-deps-xz-5.2.5/COPYING",
+    "bytes": 2775,
+    "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-cpython/cpython-source-deps-xz-5.2.5/COPYING.GPLv2",
+    "bytes": 18092,
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-cpython/cpython-source-deps-xz-5.2.5/COPYING.GPLv3",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-cpython/cpython-source-deps-xz-5.2.5/COPYING.LGPLv2.1",
+    "bytes": 26530,
+    "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-pillow/xz-5.8.3/COPYING",
+    "bytes": 3119,
+    "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-pillow/xz-5.8.3/COPYING.0BSD",
+    "bytes": 607,
+    "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-pillow/xz-5.8.3/COPYING.GPLv2",
+    "bytes": 17984,
+    "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-pillow/xz-5.8.3/COPYING.GPLv3",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "notices/additional-native-sources/xz-pillow/xz-5.8.3/COPYING.LGPLv2.1",
+    "bytes": 26419,
+    "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+  },
+  {
+    "path": "notices/additional-native-sources/zlib-ng/zlib-ng-2.3.3/LICENSE.md",
+    "bytes": 867,
+    "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee"
+  },
+  {
+    "path": "notices/additional-native-sources/zlib/cpython-source-deps-zlib-1.3.1/LICENSE",
+    "bytes": 1002,
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+  },
+  {
+    "path": "notices/additional-native-sources/zlib/cpython-source-deps-zlib-1.3.1/contrib/dotzlib/LICENSE_1_0.txt",
+    "bytes": 1359,
+    "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+  },
+  {
+    "path": "notices/hyphen-additions-provenance.json",
+    "bytes": 1569,
+    "sha256": "e90c875de3a2d150897175728f66c418619e550e6ce046000a0a3e6e2925e72c"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/GPL-3.0.txt",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/LGPL-2.1.txt",
+    "bytes": 26419,
+    "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/LGPL-3.0.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/LPPL-1.3c.txt",
+    "bytes": 19102,
+    "sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/tex-hyphen-pinned-README.md",
+    "bytes": 1616,
+    "sha256": "dd55f258fddde17d25453cec70a3c43c469cdb4d662d788c9d3359292fe5736c"
+  },
+  {
+    "path": "notices/hyphen-fulltexts/tex-hyphen-pinned-hyph-ro.tex",
+    "bytes": 4958,
+    "sha256": "6f09c53cc65cb6fcf4435396371c49bf50aaa88e40af7931a9e6bccc405f1fab"
+  },
+  {
+    "path": "notices/installed-dependencies/CPython-LICENSE.txt",
+    "bytes": 33861,
+    "sha256": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120"
+  },
+  {
+    "path": "notices/installed-dependencies/Pillow/pillow-12.2.0.dist-info/licenses/LICENSE",
+    "bytes": 78014,
+    "sha256": "75bb81b58f9b39786eeb2e56a1eb829aae501042d49e1dc766ca187b6ce9656f"
+  },
+  {
+    "path": "notices/installed-dependencies/PyInstaller/pyinstaller-6.22.3.dist-info/licenses/COPYING.txt",
+    "bytes": 32604,
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "notices/installed-dependencies/TclTk-LICENSE.txt",
+    "bytes": 2307,
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "path": "notices/installed-dependencies/altgraph/altgraph-0.17.5.dist-info/LICENSE",
+    "bytes": 1002,
+    "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+  },
+  {
+    "path": "notices/installed-dependencies/fonttools/fonttools-4.63.0.dist-info/licenses/LICENSE",
+    "bytes": 1093,
+    "sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+  },
+  {
+    "path": "notices/installed-dependencies/fonttools/fonttools-4.63.0.dist-info/licenses/LICENSE.external",
+    "bytes": 20410,
+    "sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
+  },
+  {
+    "path": "notices/installed-dependencies/packaging/packaging-26.3.dist-info/licenses/LICENSE",
+    "bytes": 197,
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "path": "notices/installed-dependencies/packaging/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+    "bytes": 10174,
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "path": "notices/installed-dependencies/packaging/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+    "bytes": 1344,
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "path": "notices/installed-dependencies/pefile/pefile-2024.8.26.dist-info/LICENSE",
+    "bytes": 1083,
+    "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+  },
+  {
+    "path": "notices/installed-dependencies/pyinstaller-hooks-contrib/pyinstaller_hooks_contrib-2026.8.dist-info/licenses/LICENSE",
+    "bytes": 27666,
+    "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+  },
+  {
+    "path": "notices/installed-dependencies/pypdf/pypdf-6.13.2.dist-info/licenses/LICENSE",
+    "bytes": 1605,
+    "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524"
+  },
+  {
+    "path": "notices/installed-dependencies/pywin32-ctypes/pywin32_ctypes-0.2.3.dist-info/LICENSE.txt",
+    "bytes": 1644,
+    "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools-84.0.0.dist-info/licenses/LICENSE",
+    "bytes": 1023,
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+    "bytes": 7634,
+    "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+    "bytes": 1023,
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+    "bytes": 10278,
+    "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+    "bytes": 1023,
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+    "bytes": 1076,
+    "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+    "bytes": 1076,
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+    "bytes": 1053,
+    "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+    "bytes": 197,
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+    "bytes": 10174,
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+    "bytes": 1344,
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+    "bytes": 1089,
+    "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+    "bytes": 1072,
+    "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+    "bytes": 1107,
+    "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+  },
+  {
+    "path": "notices/installed-dependencies/setuptools/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+    "bytes": 1076,
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/COPYING",
+    "bytes": 34520,
+    "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/docs/license.md",
+    "bytes": 1254,
+    "sha256": "1412b5e5fb96eaff8676441921586b1fe3951358815ae1780568779cd5714740"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/fonts/droid/NOTICE",
+    "bytes": 10695,
+    "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/fonts/han/LICENSE.txt",
+    "bytes": 4301,
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/fonts/noto/COPYING",
+    "bytes": 4301,
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/fonts/sil/OFL.txt",
+    "bytes": 4437,
+    "sha256": "73dfe0817e50210df5ee60d551515b9ebef9156522e45d166ca5f0a2456f1f39"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/fonts/urw/OFL.txt",
+    "bytes": 4349,
+    "sha256": "3b709798a0943cbf824ed21b6b2c735e482cf6cb8fa11441e57381c2650253ca"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-af.info",
+    "bytes": 2620,
+    "sha256": "1957654979e56e9b77add085430b443bd3217cfa30943a1f293e05f9e88e2c3e"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-as.info",
+    "bytes": 2774,
+    "sha256": "feba53b46eff57eddf04d6cd0639bb59b56a5d6ae38b1e9b5d1c25a4063a8248"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-be.info",
+    "bytes": 9239,
+    "sha256": "58354164feabcef3efe156970712c0818a9c8ffee998c4562b6620fe80cd1612"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-bg.info",
+    "bytes": 44327,
+    "sha256": "06c651f77ec4ce0d507a225b46c3e52fa1a275f6f65f4e3360e37678ea45e4f5"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-bn.info",
+    "bytes": 2770,
+    "sha256": "75e30a3270421007219d277353b13a72c8f925a2b89f16ce5361d82f58ac8437"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ca.info",
+    "bytes": 2619,
+    "sha256": "4a2a2af321330525022c962bb16ab2e2c56512c37cc4f7e7e1467ce9be2822d9"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-cop.info",
+    "bytes": 6494,
+    "sha256": "87891f2e290276a3614b35eb0642071eb34baab4046f56d974bc5841c00423cc"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-da.info",
+    "bytes": 2287,
+    "sha256": "57c58ab01b16cfde961fd45b3e466ad373e8b58504648ff8ff417a82b5ec6480"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-de-1996.info",
+    "bytes": 2804,
+    "sha256": "aad8cc43d41f225e3770475c959f47594b54f780712931aa4f10090bce545d70"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-el-polyton.info",
+    "bytes": 3249,
+    "sha256": "eb429c009b4fbfa8568ef19ec05c9066c3264f814251105be88f6cc91c831e68"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-en-us.info",
+    "bytes": 2392,
+    "sha256": "3296b50a85819db4a81d0983a4197fa5139ef931365ea76a13529a7e762128d3"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-es.info",
+    "bytes": 2504,
+    "sha256": "844cb3e361c4b0d1bd61c31123eb8724753e28ddfe28523106ccd91ee02ad486"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-et.info",
+    "bytes": 2501,
+    "sha256": "644d6ea2cd5801b67a7d97e14dbd691915cd8e1f75486f9d79bf67b23050c7b0"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-fi.info",
+    "bytes": 2335,
+    "sha256": "49e8d96053c4abd893f815424cc88fb812bbb71900c08c1fa6dcaa5281a3ee02"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-fr.info",
+    "bytes": 7895,
+    "sha256": "d66c5b505f330f0f29c9a61c97d0cb5c5f3004d41a29a0435056854d28c18846"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-gu.info",
+    "bytes": 2727,
+    "sha256": "5f87d3a0775a263579c2fecf5d006eacc664f3b0f3824a5e2f8de9942e2c0124"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-hi.info",
+    "bytes": 2715,
+    "sha256": "d3452642fb44c3e6a5f5b788acd5a4333b560bf1250daa92c1bf7d7190d76dd0"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-hr.info",
+    "bytes": 3102,
+    "sha256": "ccbc3fcd98d5d21a524f94d9bc705f64fded49782b76e9277f61f996874bbac1"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-hu.info",
+    "bytes": 1173,
+    "sha256": "103b6a4611f931c3523afee980c81c49c1b3f905dd7bc2ef2df08142f9add0fd"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-hy.info",
+    "bytes": 1373,
+    "sha256": "844484512560e53b6b646d901f832b5ec2597e61aada34760bb36b4054e915eb"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-is.info",
+    "bytes": 1060,
+    "sha256": "3771dad6b76cbc7f6fcc79ad751da3768ce566d74cf9fc39cd428e3f50318c3b"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-it.info",
+    "bytes": 3250,
+    "sha256": "7a3508434c511ad06fbddbd9463ea81f64ef916c33c6cd672dbbcc99f6d1f800"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ka.info",
+    "bytes": 1097,
+    "sha256": "097ebc0b6637546f2ac47dc16c45c08454d93fc10b7a02399a27972d4223228c"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-kn.info",
+    "bytes": 2730,
+    "sha256": "c59f140fa0b885d6c6d9497948be4d26d801182f0cdc80d9a52c69ca64044a57"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-la.info",
+    "bytes": 7332,
+    "sha256": "801d8c49cb08d554d08e177f84579aec4211d25a3e4cc25902843ddcd1e4bedb"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-lt.info",
+    "bytes": 3170,
+    "sha256": "6e82ec7a36bbe58965f33146a3cb7c37167a525f793938d7aaa5b081ed60aa37"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-lv.info",
+    "bytes": 1050,
+    "sha256": "a5bfe75b2834d27db323d7a011497a168b89c54b90054d89cbb1232cd619172b"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ml.info",
+    "bytes": 2728,
+    "sha256": "6cec9aa039fbb55855dde2b3b8b47b11fa965903e78ca3af64b0edd941fbc1cb"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-mn-cyrl.info",
+    "bytes": 3125,
+    "sha256": "f2ad505f2669ba1716c236594b72c05538a9bcb30fb2265e129e8b0417c40779"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-mr.info",
+    "bytes": 2739,
+    "sha256": "a09832fff4a5ec0e5ecd0fd858152e1bf2ef441ea3751ff9488d2c2f9b2618e7"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-nb.info",
+    "bytes": 1609,
+    "sha256": "c5308d6b843ac9298ae7ff5f4c28d31ebb0ba8914184b9e18202b675147bbcf6"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-nl.info",
+    "bytes": 3656,
+    "sha256": "f382780d756f13efdba0e913397afb91fddbb28534852381f7b97f93928c3a5c"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-or.info",
+    "bytes": 2708,
+    "sha256": "600541fd8ef59a882f949367b3f08f2a10312daa16d5be17bf4084c27cf50e82"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-pa.info",
+    "bytes": 2740,
+    "sha256": "ba71ca37cda98f8fc85737cfa7eb691aa122fb3ba6fd7e40543076f57fae83ee"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-pi.info",
+    "bytes": 1990,
+    "sha256": "15da529646346f296bf51a76bc76b86a78457f6a48990270c723c56224699619"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-pl.info",
+    "bytes": 3547,
+    "sha256": "3927b7c9364589d501f2eebbf4421be4f2d8cd4df13fcdc616b6b6000fad88dc"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-pt.info",
+    "bytes": 3276,
+    "sha256": "befb02719155c9339ec831c30f4ed68204585d34b5d985603456f9c38d336aee"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ro.info",
+    "bytes": 1504,
+    "sha256": "536a7ce30960fea3dfd7a4050ecb9564ca466e78acba75c2764a60d9d2d1372e"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ru.info",
+    "bytes": 1928,
+    "sha256": "392c96dd05aec7d935fc9db7e98c2e90eb0a78bc43c1087fcf651ccb18b8cac1"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-sa.info",
+    "bytes": 5005,
+    "sha256": "a54cbc35c551d87169d5d6b3afa41806f3e3b8470dd9f0b0ccf11c16c3b8e6bf"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-sl.info",
+    "bytes": 3003,
+    "sha256": "ab0a05c4fb61f3cf0a6c8829696e0c546ba4d07d0699312811af07db037f6db8"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-sq.info",
+    "bytes": 2446,
+    "sha256": "2ff8550b54610755551add105cdf1eb2b92453fdda9e12f6ba7ce96db12edd4f"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-sv.info",
+    "bytes": 2294,
+    "sha256": "f0db446c81d348e691457239b0250b521ab230aa80abd7b54066783e93ac7fe9"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-ta.info",
+    "bytes": 2730,
+    "sha256": "dcf9da99c1927600297de580c6dbf9c9d707c83cd946509fea720e7ead916197"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-te.info",
+    "bytes": 2730,
+    "sha256": "32db1869dc90ea826d4b6a3c4ca1b1e5b5cc1bfa0967bbc74d64ac5611516e20"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-th.info",
+    "bytes": 32154,
+    "sha256": "dd2c5d1dc72327925ebaa901656cbb6badeaaee13f660e48096244fa81ce5eed"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-tk.info",
+    "bytes": 2553,
+    "sha256": "34d483f8d40572b8bda5f6b4ff1aee82710ab72fb78d7d5fa43cf6c2133cf205"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/resources/hyphen/license/hyph-tr.info",
+    "bytes": 2942,
+    "sha256": "c9091880f8ba90990f66877a0f40b270ba9d10b91f9bb03d45ebfd2548b1daf7"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/brotli/LICENSE",
+    "bytes": 1084,
+    "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/cmark-gfm/COPYING",
+    "bytes": 7567,
+    "sha256": "c22e885f33b821bddb24cf007145e5540655b6c0f403e49e6c76a93c28e6d9a9"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/curl/COPYING",
+    "bytes": 1088,
+    "sha256": "8c8824f50e73a021f5dde1fccbf69685939247399a33a32abab1fa448c9ddabb"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/curl/docs/LICENSE-MIXING.md",
+    "bytes": 4636,
+    "sha256": "6f4bfc06c8209f38bb7bd4a16820e94b5c05e9de4e8c14ec094f15dddfaed777"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/extract/COPYING",
+    "bytes": 34520,
+    "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/freeglut/AUTHORS",
+    "bytes": 1163,
+    "sha256": "766c8fe7c6d849a5aaed5b2f6b8f013849225596c723d004e12c3036935391a3"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/freeglut/COPYING",
+    "bytes": 1439,
+    "sha256": "b6593d5ec4c113a274abb85b10e8615895cb0ddb89f7912af5fe5aa8df38a275"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/freetype/LICENSE.TXT",
+    "bytes": 2149,
+    "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/freetype/docs/FTL.TXT",
+    "bytes": 6743,
+    "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/freetype/docs/GPLv2.TXT",
+    "bytes": 17994,
+    "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/gumbo-parser/COPYING",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/harfbuzz/AUTHORS",
+    "bytes": 201,
+    "sha256": "19bfe8f5ed100636cd24ab0c90a3f71c21d8b02d9ba00719447a0faab364d49f"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/harfbuzz/COPYING",
+    "bytes": 1971,
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/harfbuzz/src/ms-use/COPYING",
+    "bytes": 1141,
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/jbig2dec/COPYING",
+    "bytes": 34520,
+    "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/jbig2dec/LICENSE",
+    "bytes": 1170,
+    "sha256": "1bf5258afe453934484fd0cea97508b72301633a6a78b0ae8a9ee44ac78f26d9"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/lcms2/AUTHORS",
+    "bytes": 1010,
+    "sha256": "4847d97cd41e980794939b1d2694bd8f67b92856ec80e95c2fcfc34066f0df93"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/lcms2/LICENSE",
+    "bytes": 1075,
+    "sha256": "74fe8934cee0e63e8368d4a6b3a703b603e753a62b75b75273572e98a57ebf75"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/lcms2/plugins/threaded/COPYING.GPL3",
+    "bytes": 35146,
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/lcms2/utils/jpgicc/LICENSE_iccjpeg",
+    "bytes": 3234,
+    "sha256": "8baac37d14eed89b82ffcb041677dd701164eb5cc0f26e165fe47eb11afa0dca"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/libjpeg/README",
+    "bytes": 18711,
+    "sha256": "913af09f785683accdf660b85dcf27fdd567d4ad649daa95cb8771b040db79d1"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/mujs/AUTHORS",
+    "bytes": 42,
+    "sha256": "d24f0cf75bdfe4e003592fb3eabca1ee8db9698b162e241c081462461eb9369f"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/mujs/COPYING",
+    "bytes": 759,
+    "sha256": "0ca9b4fbfbcab8ac7d32475890d866efc02f4cffb6b6da5c0e9a0615cc3d82fe"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/mujs/docs/license.html",
+    "bytes": 1400,
+    "sha256": "533d750392fdfa8a856732a479f9b267310b4fd31732b21695fa3663444dd344"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/openjpeg/LICENSE",
+    "bytes": 2112,
+    "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/tesseract/AUTHORS",
+    "bytes": 787,
+    "sha256": "720862b7253993b348fe15f37ed6e0d4feb0fc8df8324284d75975d54dd29923"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/tesseract/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/LICENSE",
+    "bytes": 909,
+    "sha256": "d69af7f2442fcde1c3372cbbb43907fa1f4b3a91ef3899be69dd3a726dc255a4"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/backend_qt/COPYING",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/backend_tcl/licence.txt",
+    "bytes": 728,
+    "sha256": "b1722b97c78ba93650e62ff02dac8bad2859eaf6d6965ce025510c8c0c508514"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/debian/copyright",
+    "bytes": 1325,
+    "sha256": "edec41dba6f270124ad3ba658dc2514bb1e1a9d8c637b7d676cde361114680eb"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/frontend/COPYING",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/frontend_qt/COPYING",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/frontend_qt/res/LICENSE_feathericons",
+    "bytes": 1082,
+    "sha256": "7b4fbc0fda4330e71c1c20706b69e69f2c5ea721fcf3791911188e268975b523"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zint/frontend_qt/res/LICENSE_lucide",
+    "bytes": 880,
+    "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zlib/LICENSE",
+    "bytes": 1002,
+    "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+  },
+  {
+    "path": "notices/mupdf-1.28.2/thirdparty/zxing-cpp/LICENSE",
+    "bytes": 11358,
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "path": "notices/notice-provenance.json",
+    "bytes": 106402,
+    "sha256": "0b28eee376fac60b7351c789b3f912e0b32fe1cdc91cce9bc90adc6acdb2cd4c"
+  },
+  {
+    "path": "notices/runtime-additions/ATTRIBUTIONS-DRAFT.txt",
+    "bytes": 995,
+    "sha256": "ba42b201edb1ba348e3519a7ee6c94960d1e82816b8e10dad3c19dff0dd5e243"
+  },
+  {
+    "path": "notices/runtime-additions/Pillow-12.2.0-native-LICENSE.txt",
+    "bytes": 78014,
+    "sha256": "75bb81b58f9b39786eeb2e56a1eb829aae501042d49e1dc766ca187b6ce9656f"
+  },
+  {
+    "path": "notices/runtime-additions/PyMuPDF-AGPLv3-COPYING.txt",
+    "bytes": 34520,
+    "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+  },
+  {
+    "path": "notices/runtime-additions/Raqm-0.10.3-COPYING.txt",
+    "bytes": 1180,
+    "sha256": "4a574f631d5aee5223d108d3f7ec4f717343685d8a8904f42591be72c907ecba"
+  },
+  {
+    "path": "prepare_notices.py",
+    "bytes": 2125,
+    "sha256": "f078eaf1a5df41ac90ceb85a67b38b57cf7af6661b58f15ef6bb9b7cef5ce024"
+  },
+  {
+    "path": "pytest.ini",
+    "bytes": 28,
+    "sha256": "bf45cbf9ac2b1c593bf0ec2f6f9250d99a021f9a593d767fd56df205ef2a6643"
+  },
+  {
+    "path": "redactor.spec",
+    "bytes": 2258,
+    "sha256": "7e39a62f5dd9c0819363e03491a0381657d8d905cd653f5683fe4b480cb0f09c"
+  },
+  {
+    "path": "requirements-native-tools.txt",
+    "bytes": 401,
+    "sha256": "d7b6f4467326690ad6715ad98e4d5519d7bf9bd3826e083670c57c2cf8894995"
+  },
+  {
+    "path": "requirements-runtime-build.txt",
+    "bytes": 1176,
+    "sha256": "e71f8e6f46020fdc6f8471781e4ade94f42416d9285b8d736fcef81dc6a4768d"
+  },
+  {
+    "path": "requirements-test.txt",
+    "bytes": 600,
+    "sha256": "e219cbc174a1ba313a52fd24444c14dabeb3ce5c034745d8cee8cac135e9fb31"
+  },
+  {
+    "path": "source-provenance/official-wheel-lock.json",
+    "bytes": 6992,
+    "sha256": "1473e46013d6f2216b7b860544324d790d531e1c3caeb4f4d3d0dc333572ac70"
+  },
+  {
+    "path": "source-provenance/public-vendor-fixtures.json",
+    "bytes": 5059,
+    "sha256": "079d5d94eb28fe735e4bb01dfa2c3daf1751badf29a0d48fd7f8d4dd361b71bb"
+  },
+  {
+    "path": "source-provenance/source-archives.json",
+    "bytes": 13900,
+    "sha256": "a211379822681e6b31960fa37cc773dff0604370997b3a90207fda34db71098c"
+  },
+  {
+    "path": "test_ui_preflight.py",
+    "bytes": 1527,
+    "sha256": "31352c2273647c2ee0d5efd6d31d0004148e1a2473e77a41af9b04e78b111d21"
+  },
+  {
+    "path": "tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tests/test_best_effort_independent.py",
+    "bytes": 13560,
+    "sha256": "8ddc1b0f32c5787a259b814c35ff7cb8187fb16e2af3f55302d892680033a727"
+  },
+  {
+    "path": "tests/test_best_effort_word_geometry.py",
+    "bytes": 1246,
+    "sha256": "cd47348190ebb5bcac777b8d325b443d190bdb92d17ff4b7d8327fdfdcddc570"
+  },
+  {
+    "path": "tests/test_export_numbering.py",
+    "bytes": 4945,
+    "sha256": "f1e5f667bb6ad017a0dbc3da99521bd74241f5812d51a05c78b61fc2d6a9da9a"
+  },
+  {
+    "path": "tests/test_export_pair_independent.py",
+    "bytes": 7271,
+    "sha256": "cf3c2f9a10cdbcaeec9dfd1eab94894b52c5d16af6b666aec78ffc6c255556b2"
+  },
+  {
+    "path": "tests/test_frozen_controller.py",
+    "bytes": 2212,
+    "sha256": "3ec19f1e593582afeb4f8049a308c53dcda3e834cb8f82c3c944235be9725b5d"
+  },
+  {
+    "path": "tests/test_identifier_matching.py",
+    "bytes": 2180,
+    "sha256": "4fa1cbc8b0baf9478cb94b92a4e8a1c5bb39c64eb8c5128027bebb7aeb3f8386"
+  },
+  {
+    "path": "tests/ui_fakes.py",
+    "bytes": 2952,
+    "sha256": "6eecffad9949e51b4d4e976aaccc1bee0a5d2b13044154adac8fd4a41da72b57"
+  },
+  {
+    "path": "upstream/Python-3.13.15.tar.xz",
+    "bytes": 23160540,
+    "sha256": "1e66a7945a48390ee4c2a4268a0e4185884059a13c4aab6d148aa208deea4a76"
+  },
+  {
+    "path": "upstream/altgraph-0.17.5.tar.gz",
+    "bytes": 48428,
+    "sha256": "c87b395dd12fabde9c99573a9749d67da8d29ef9de0125c7f536699b4a9bc9e7"
+  },
+  {
+    "path": "upstream/aom-3.13.2.tar.gz",
+    "bytes": 6325517,
+    "sha256": "cc5dafdd9a05d324527104cd5ee22e04d292a3d1f319a91a970715a0609f0e8b"
+  },
+  {
+    "path": "upstream/brotli-1.2.0.tar.gz",
+    "bytes": 646315,
+    "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+  },
+  {
+    "path": "upstream/bzip2-1.0.8.tar.gz",
+    "bytes": 818771,
+    "sha256": "ab8d1b0cc087c20d4c32c0e4fcf7d0c733a95da12cedc6d63b3f0a9af07427e2"
+  },
+  {
+    "path": "upstream/dav1d-1.5.3.tar.gz",
+    "bytes": 1713950,
+    "sha256": "cbe212b02faf8c6eed5b6d55ef8a6e363aaab83f15112e960701a9c3df813686"
+  },
+  {
+    "path": "upstream/expat-2.8.2.tar.xz",
+    "bytes": 515504,
+    "sha256": "3ad89b8588e6644bd4e49981480d48b21289eebbcd4f0a1a4afb1c29f99b6ab4"
+  },
+  {
+    "path": "upstream/fonttools-4.63.0.tar.gz",
+    "bytes": 3597189,
+    "sha256": "caeb583deeb5168e694b65cda8b4ee62abedfa66cf88488734466f2366b9c4e0"
+  },
+  {
+    "path": "upstream/freetype-2.14.3.tar.gz",
+    "bytes": 4134916,
+    "sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1"
+  },
+  {
+    "path": "upstream/harfbuzz-13.2.1.tar.xz",
+    "bytes": 19508960,
+    "sha256": "6695da3eb7e1be0aa3092fe4d81433a33b47f4519259c759d729e3a9a55c1429"
+  },
+  {
+    "path": "upstream/lcms2-2.18.tar.gz",
+    "bytes": 5599928,
+    "sha256": "ee67be3566f459362c1ee094fde2c159d33fa0390aa4ed5f5af676f9e5004347"
+  },
+  {
+    "path": "upstream/libavif-1.4.1.tar.gz",
+    "bytes": 14528943,
+    "sha256": "d4aea31a4becb3273ba7968221be2e48148ba05eb8a68d14e671963e17785648"
+  },
+  {
+    "path": "upstream/libffi-3.4.4.tar.gz",
+    "bytes": 1375889,
+    "sha256": "9d802681adfea27d84cae0487a785fb9caa925bdad44c401b364c59ab2b8edda"
+  },
+  {
+    "path": "upstream/libjpeg-turbo-3.1.4.1.tar.gz",
+    "bytes": 2528617,
+    "sha256": "ecae8008e2cc9ade2f2c1bb9d5e6d4fb73e7c433866a056bd82980741571a022"
+  },
+  {
+    "path": "upstream/libpng-1.6.56.tar.gz",
+    "bytes": 1577915,
+    "sha256": "8f91e941a07fb1069ebb3855278f82a849e6af14ca05821e14ec3d5348697ea5"
+  },
+  {
+    "path": "upstream/libwebp-official-git-1.6.0.tar.gz",
+    "bytes": 3845556,
+    "sha256": "1876ba29e2a16d72c4309114b1578a46b81ed8f5461c2cdeb3b51555c406bf24"
+  },
+  {
+    "path": "upstream/libyuv-6067afde563c3946eebd94f146b3824ab7a97a9c.tar.gz",
+    "bytes": 593943,
+    "sha256": "4bc799f5e717bdf2ab5994661707b3a4ac8721689ea6966f943592eaffddca13"
+  },
+  {
+    "path": "upstream/mpdecimal-4.0.0.tar.gz",
+    "bytes": 319629,
+    "sha256": "338fac3fb8cdd60f406b6326431338756f58a8af94229ffd9bf1e7c2b1ad71ca"
+  },
+  {
+    "path": "upstream/mupdf-1.28.2-source.tar.gz",
+    "bytes": 68898646,
+    "sha256": "44075a84e329db55b9bef5f342a70fd26d69e48ad1d33cb89d9664581c641156"
+  },
+  {
+    "path": "upstream/openjpeg-2.5.4.tar.gz",
+    "bytes": 2157028,
+    "sha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a"
+  },
+  {
+    "path": "upstream/openssl-3.0.21.tar.gz",
+    "bytes": 15455325,
+    "sha256": "0349aef1ff9ded3eb23be12c2586e026be5cec3fd40df859e388671d7844fced"
+  },
+  {
+    "path": "upstream/packaging-26.3.tar.gz",
+    "bytes": 313412,
+    "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+  },
+  {
+    "path": "upstream/pefile-2024.8.26.tar.gz",
+    "bytes": 76008,
+    "sha256": "3ff6c5d8b43e8c37bb6e6dd5085658d658a7a0bdcd20b6a07b1fcfc1c4e9d632"
+  },
+  {
+    "path": "upstream/pillow-12.2.0.tar.gz",
+    "bytes": 46987819,
+    "sha256": "a830b1a40919539d07806aa58e1b114df53ddd43213d9c8b75847eee6c0182b5"
+  },
+  {
+    "path": "upstream/pyinstaller-6.22.3.tar.gz",
+    "bytes": 4437180,
+    "sha256": "05eb2f5615503e72939a7224d68b4aff572c6b0438ee4a17d0a4b481f399362d"
+  },
+  {
+    "path": "upstream/pyinstaller_hooks_contrib-2026.8.tar.gz",
+    "bytes": 176955,
+    "sha256": "4d825786ad7a9b7dbcc52d612748a34562fe273461bcfd88f4d549c594bbf8f9"
+  },
+  {
+    "path": "upstream/pymupdf-12786d12b2962a1d77fd13b103162eddf749644c.tar.gz",
+    "bytes": 97605163,
+    "sha256": "cd400ac13ecd659631ac96e0d7ec52c5a90829ad64cee46b61ddaaaca10770fb"
+  },
+  {
+    "path": "upstream/pypdf-6.13.2.tar.gz",
+    "bytes": 6479250,
+    "sha256": "5a96a17dbdfbf9c2ab24c0a13fa0aba182be22ba6f283098712c16fc242f509f"
+  },
+  {
+    "path": "upstream/pywin32-ctypes-0.2.3.tar.gz",
+    "bytes": 29471,
+    "sha256": "d162dc04946d704503b2edc4d55f3dba5c1d539ead017afa00142c38b9885755"
+  },
+  {
+    "path": "upstream/setuptools-84.0.0.tar.gz",
+    "bytes": 1168449,
+    "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73"
+  },
+  {
+    "path": "upstream/tcl-8.6.15.tar.gz",
+    "bytes": 11889733,
+    "sha256": "4c23f0dd3efcbe6f3a22c503a68d147617bb30c4f5290f1eb3eaacf0b460440b"
+  },
+  {
+    "path": "upstream/tiff-4.7.1.tar.gz",
+    "bytes": 4000609,
+    "sha256": "f698d94f3103da8ca7438d84e0344e453fe0ba3b7486e04c5bf7a9a3fabe9b69"
+  },
+  {
+    "path": "upstream/tk-8.6.15.tar.gz",
+    "bytes": 4629677,
+    "sha256": "0ae56d39bca92865f338529557a1e56d110594184b6dc5a91339c5675751e264"
+  },
+  {
+    "path": "upstream/xz-cpython-5.2.5.tar.gz",
+    "bytes": 1744796,
+    "sha256": "a15c168e39e87d750c3dc766edc7f19bdda57dacf01e509678467eace91ad282"
+  },
+  {
+    "path": "upstream/xz-pillow-5.8.3.tar.gz",
+    "bytes": 2771455,
+    "sha256": "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0"
+  },
+  {
+    "path": "upstream/zlib-1.3.1.tar.gz",
+    "bytes": 1570732,
+    "sha256": "e3f3fb32564952006eb18b091ca8464740e5eca29d328cfb0b2da22768e0b638"
+  },
+  {
+    "path": "upstream/zlib-ng-2.3.3.tar.gz",
+    "bytes": 2447397,
+    "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1"
+  },
+  {
+    "path": "version_info.txt",
+    "bytes": 567,
+    "sha256": "44848a89f74d2f17be949b72d0af6c015c8c30752f6de8b1f86891f594408a8a"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "path": "app/best_effort_app.py",
+    "bytes": 8353,
+    "sha256": "c1c4725e331d308b31eff1bf2d80f9a14ecb0ae8374334096c28088723b4c707",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/best_effort_controller.py",
+    "bytes": 1302,
+    "sha256": "3f08bf701ee827641a8572bdc335b8a330a17b9e1571524add534fbf6109777c",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/best_effort_engine.py",
+    "bytes": 13577,
+    "sha256": "e4b448fb44ee3dc2d5a8dd7f42e1b9c290ad5d040762c501f476ce308590b2ad",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/best_effort_worker.py",
+    "bytes": 1979,
+    "sha256": "3da136361059906436619868dc24eb9305b402c37a8289682187b8fe4efab0a1",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/engine.py",
+    "bytes": 7509,
+    "sha256": "bcf1ea6204ef748215ab81433c51706c693bad0a76e4eecacc5e2232723e8c47",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/export_files.py",
+    "bytes": 5255,
+    "sha256": "312729b2065efbd9bed01af4921d68af5faee2bd438eaf084b2454c9d1d33f2d",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/identifier_matching.py",
+    "bytes": 1689,
+    "sha256": "4672cb8914acccd0d119eb0a0cb77baaa84833a49d59fd3cdfdd8cdea78f8328",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/layout_suggestions.py",
+    "bytes": 6230,
+    "sha256": "1d7f8b7db36a0f4d35c0000a93ea77f83cb5bc24f69b0689932f298057272d30",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/preview_cache.py",
+    "bytes": 2041,
+    "sha256": "3e933d5fc10c798917bf1deadb5c0434b2ca4728ae18e673d87efb803f217cc4",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/release_gui.py",
+    "bytes": 1478,
+    "sha256": "cd3cac2707f84552d8126632f13e717103cc45bdf0894f96630fdfcc31fb862f",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/release_worker.py",
+    "bytes": 160,
+    "sha256": "ab2f0558a525fb63465e7cb436fc319d2877ed5f9f27a8645ec6d78dab7e3d0d",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/resource_limits.py",
+    "bytes": 2759,
+    "sha256": "2be1759cf7bc648d3386a0e06dd7ed7286972bac7a5b0ee1fd71f8ddd2de622c",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/review_state.py",
+    "bytes": 1019,
+    "sha256": "0584a0a2280d33462615de9b578a97a6c9e5652ad682561d4ff9c01c0bdc514a",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/safe_images.json",
+    "bytes": 1501,
+    "sha256": "493af351669b0cc9d555a0dc27a400b6b3db9eb4f739203771c1f0c0b27a2c1d",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/ui_base.py",
+    "bytes": 8784,
+    "sha256": "66a90d850b2ce79338adc5c3db5a4e5f2c948424fdf6bf756a2a287ea4b2d444",
+    "license": "AGPL-3.0-only"
+  },
+  {
+    "path": "app/ui_workflow.py",
+    "bytes": 10017,
+    "sha256": "c3c2c4e3f2d52f69bbc70829ac92bdb1c1e5472be0da71e5fe275e27b60e8b92",
+    "license": "AGPL-3.0-only"
+  }
+]

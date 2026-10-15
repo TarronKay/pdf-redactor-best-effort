@@ -1,0 +1,16 @@
+PDF REDACTOR 0.9.2 - EXACT CORRESPONDING SOURCE
+
+This lean installer omits the source archive to reduce the ordinary download.
+Installer and matching complete source must be provided together at:
+https://github.com/TarronKay/pdf-redactor-best-effort/releases/tag/v0.9.2-evaluation
+
+Exact corresponding-source asset, available there at no further charge:
+PDFRedactor-0.9.2-CORRESPONDING-SOURCE.zip
+https://github.com/TarronKay/pdf-redactor-best-effort/releases/download/v0.9.2-evaluation/PDFRedactor-0.9.2-CORRESPONDING-SOURCE.zip
+
+It contains original app/tests/build scripts and matching dependency sources,
+notices, pinned inputs and build instructions. GitHub's automatically generated
+repository archives omit large vendor archives and are not the complete source.
+Recipients may study, modify and redistribute covered work under AGPL version3.
+Microsoft runtime component terms remain separate. Source access must be checked
+before distribution. This local candidate does not claim the release is online.
