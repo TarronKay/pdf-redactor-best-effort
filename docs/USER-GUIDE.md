@@ -2,162 +2,129 @@
 
 [Back to README](../README.md) · [Download v0.9.2 evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/releases/tag/v0.9.2-evaluation)
 
-This guide covers the Windows **0.9.2 evaluation** interface. It is for someone opening a PDF, selecting information to remove, and saving a separate copy. The application processes PDFs locally, without cloud OCR or uploads.
+This guide covers the Windows **0.9.2 evaluation** interface: opening a PDF, setting redactions, choosing an output mode and saving the result. Documents are processed locally, without uploads.
 
-**An export is not proof of anonymity.** Automatic suggestions can miss identifiers. Selectable text can retain hidden, white, clipped, occluded, misplaced or unselected identifying text. Image-only output removes the searchable text layer but can still show identifying information in the pixels. Inspect every exported page and, for selectable text, the searchable/copied text before sharing.
+**[Watch the 75-second narrated walkthrough](https://raw.githubusercontent.com/TarronKay/pdf-redactor-best-effort/main/docs/media/redactor-professional-walkthrough-Wyatt.mp4)** · [Captions (SRT)](media/redactor-professional-walkthrough-captions.srt)
 
-## Contents
+## Make a redacted copy
 
-- [Before you begin](#before-you-begin)
-- [Interface map](#interface-map)
-- [Make your first redacted copy](#make-your-first-redacted-copy)
-- [Every control](#every-control)
-- [Suggestions and manual boxes](#suggestions-and-manual-boxes)
-- [Choose an output mode](#choose-an-output-mode)
-- [Files you receive](#files-you-receive)
-- [Verify before sharing](#verify-before-sharing)
-- [Common problems](#common-problems)
-- [Version and illustration notes](#version-and-illustration-notes)
-
-## Before you begin
-
-Use Windows 10/11 x64. The release is an **unsigned evaluation candidate**, provided without warranty. Obtain the MSI from the versioned release above and follow your organization's software rules. This guide does not establish that installation, repair or removal has been validated on your computer. Do not bypass security warnings to use it.
-
-Keep the original in a safe location and choose a separate destination for the exported copy. A local processing app does not prevent a cloud-synced destination folder from syncing your files.
-
-Inputs must be PDFs, at most **20 MiB**, with **1–30 pages**. A password-protected PDF that requires a password must first be replaced with an unlocked copy you are authorized to use. Large page dimensions, rendering budgets, extracted-word counts and processing time limits can reject a file even within the byte/page limits.
-
-Scans, handwriting, outlined letters, QR codes, barcodes, logos and text embedded in pictures require visual inspection and manual boxes. **No OCR is performed.** Report-layout recognition and sample-image warnings are advisory, including on recognized NBME-style reports; no affiliation or endorsement is claimed.
+1. **Open the document.** Click **Select PDF**, choose a file and wait for the first-page preview. The app accepts PDFs up to **20 MiB** with **1–30 pages**. Use an unlocked copy if the PDF requires a password.
+2. **Enter known identifiers.** Add names, IDs or other strings under **Known identifiers (one per line)**. Suggestions refresh automatically after a short pause and ignore letter case. Current identifiers and suggestion settings carry over when you open another document.
+3. **Set the suggestion options.** **Remove institution** and **Remove test dates** are enabled by default. **Refresh suggestions** runs the analysis immediately. Existing boxes remain selected when these settings or identifiers change.
+4. **Adjust the boxes.** Use **Show redacted page (black boxes)** to switch between the original page with colored selection overlays and the redacted preview. Left-drag to add a box; right-click inside a box to remove it. Both actions work in either view when processing has finished. To change a box's size, remove it and draw another. Use **Previous**, **Next** and the vertical scrollbar to work through the document.
+5. **Choose the output mode.** Open **Advanced options**, then select **Selectable text (best effort)** or **Image-only (no text layer)**. The differences are described [below](#choose-an-output-mode).
+6. **Export the copy.** Click **Export redacted copy**, choose a `.pdf` filename and destination folder, and wait for the saved-file message. **Mark checked (optional)** is available as a page progress marker; using it is not a prerequisite for export.
+7. **Locate the output.** The status message identifies the PDF, its `.verification.json` report and the folder where both were saved. Open the named PDF from that folder. Existing filenames receive a numeric suffix, so a new export may be called `redacted-copy-1.pdf` rather than `redacted-copy.pdf`.
 
 ## Interface map
 
 ![Numbered interface map: file and page buttons, suggestion options, identifier entry, advanced output modes, status and page canvas.](images/interface-map.png)
 
-*Source-based schematic of the 0.9.2 controls, not a screenshot. Numbers correspond to the table below. The page content is fictional. Window appearance and wrapping depend on display settings.*
+*Numbered map of the 0.9.2 controls, drawn from the source interface. This is a schematic, not a native GUI screenshot. Numbers correspond to the control reference below.*
 
-### A fictional example, before and after
+### Example: original and exported copy
 
-![Actual synthetic PDF engine renderings: the fictional original on the left and saved redacted output on the right. Names, ID, institution, date, image area and repeated footer identifier are covered; educational content remains visible.](images/synthetic-output.png)
+![Fictional PDF before and after export: name, ID, institution, date, image area and repeated footer identifier are covered, while the educational content remains visible.](images/synthetic-output.png)
 
-*These are real renderings of a two-page synthetic PDF and its exported first page, not GUI screenshots. Automatic suggestions and an added manual region were used. Both output modes were checked on both pages; only selectable-text output is pictured. This small example demonstrates the workflow, not reliable identifier detection on other documents.*
+*Actual PDF renderings from a fictional two-page example, with the first page shown before and after export. The selection combines automatic suggestions and a manual box. Selectable-text output is pictured.*
 
-## Make your first redacted copy
+## Control reference
 
-1. **Select PDF.** Open a PDF and wait for preparation and the page preview. The first page appears with suggested redactions. Names/IDs left in the identifier field and the current suggestion options also apply when you select another file; check those settings each time.
-2. **Enter known identifiers, one per line.** Include names, IDs and other exact strings you want removed. Suggestions refresh automatically after a short pause (about 0.4 seconds). Matching ignores letter case, but does not infer every spelling, spacing, accent or encoding variant. Look for variants manually.
-3. **Inspect each page.** Start with **Show redacted page (black boxes)** enabled, the default. Untick it to inspect the original page under colored selection overlays. Use **Previous**, **Next**, and the vertical scrollbar to inspect all content, including page edges and footers.
-4. **Correct the selected regions.** Left-drag a rectangle around missed identifiers; leave a small margin. Right-click inside a selected region to remove it, then redraw if needed. There are no resize handles or undo button. Wait for the refreshed preview after each change.
-5. **Choose an output mode.** Open **Advanced options**. Selectable text is the default; image-only avoids a reconstructed searchable layer. Review again after changing mode. See [the mode comparison](#choose-an-output-mode).
-6. **Optionally mark each page checked.** With the current redacted preview visible, use **Mark checked (optional)** as a progress marker, then **Next**. This does not advance the page, inspect it for you, or enable an anonymity guarantee. Export does not require any pages to be marked.
-7. **Export redacted copy.** Choose a `.pdf` filename and destination. Wait for the status message naming the PDF and JSON report actually saved. If a name is already used, the app chooses a free numbered pair rather than overwriting it.
-8. **Open that exact exported PDF separately.** Follow [Verify before sharing](#verify-before-sharing). If anything identifying remains, return to the app, add/correct the boxes, export again, and inspect the new numbered output. Share only the inspected copy.
-
-## Every control
-
-| Map | Control | What it does and what to watch for |
+| Map | Control | What it does |
 | --- | --- | --- |
-| 1 | **Select PDF** | Opens a file picker. Selecting a file resets the page, selected boxes and checked-page markers. It keeps current known identifiers, suggestion settings and output mode. Cancel leaves the current document alone. |
-| 2 | **Refresh suggestions** | Immediately requests another analysis using current identifiers and settings. Existing boxes are preserved and new suggestions are added. It is not a reset or a removal command. |
-| 3 | **Previous** | Moves one page back, stopping at the first page. Navigation does not mark a page checked. |
-| 4 | **Next / Last page** | Moves one page forward. At the last page its label becomes **Last page** and the button is disabled. It does not mark pages checked. |
-| 5 | **Clear page regions** | Removes **all** currently selected boxes on the displayed page, including suggestions and manual boxes. Other pages are unchanged. There is no confirmation or undo; review carefully and redraw. A later suggestion refresh can add suggestions back. |
-| 6 | **Mark checked (optional)** | Records your check of the displayed page for the current redactions/settings/mode. Requires a successful current redacted preview and no pending analysis. It does not move to the next page. Changes can invalidate markers; always recheck affected content. |
-| 7 | **Export redacted copy** | Processes the whole document with all current boxes and the selected mode, runs output integrity checks, then writes a new PDF/report pair. It is paused during preparation and pending identifier updates. Unchecked pages do not block export. Canceling the save dialog saves nothing. |
-| 8 | **Remove institution** | Enables heuristic institution suggestions, including certain institution-labeled or code-containing header lines. Enabled by default. It does not recognize every institution name or remove an entire institution's identity automatically. Unticking does not delete existing boxes. |
-| 9 | **Remove test dates** | Enables suggestions for labeled test/exam/administration dates and matching numeric dates, including history dates. Enabled by default. It can suggest dates you intended to keep and miss other formats. Unticking does not delete existing boxes. |
-| 10 | **Show redacted page (black boxes)** | Switches the canvas between the current redacted preview and the original page with colored selection overlays. Enabled by default. Switching views does not add/remove selections or change the export mode. The original view cannot be marked checked. |
-| 11 | **Known identifiers (one per line)** | A multiline field for literal names/IDs/strings, ignoring blank lines and leading/trailing whitespace. Changes automatically refresh suggestions. Terms over 200 characters are unsupported by the matching path. Removing a term does not remove boxes it already suggested. |
-| 12 | **Advanced options** | Shows/hides the two output-mode radio buttons. Hiding this panel keeps the selected mode. The mode warning near the top remains visible. |
-| 13 | **Selectable text (best effort)** | Default. Adds a new invisible searchable text layer over rendered page pixels, omitting words whose extracted boxes intersect selected redactions. Text reconstruction is limited and may retain hidden/unselected identifiers; inspect copied and searched text. |
-| 14 | **Image-only (no text layer)** | Writes rendered redacted page images with no extractable text layer. Search, text copying and screen-reader access to page text are lost. Visible identifiers and machine-readable codes outside the boxes remain possible. |
-| 15 | **Mode warning and status message** | The mode warning describes text/pixel risks. Status reports local processing, preview page/count, total redactions, optional checked count, advisory warnings, errors, or actual saved filenames and location. Read it after each operation. A redaction count covers the document, not just the visible page. |
-| 16 | **Page canvas and vertical scrollbar** | Left-drag to add a rectangle; right-click inside a region to remove the most recently added overlapping region. Scroll to see lower content. Boxes follow displayed page orientation. Page changes/preview refreshes reset the scroll position to the top. No dedicated zoom, rotate, page-jump, batch-export or OCR control is provided. |
-| 17 | **Help → About** | In the release launcher, shows version, evaluation/license information, local-processing reminder and where to find matching source and third-party terms beside the app. Close the dialog to continue. |
-| — | **Window close (X)** | Closes the application. There is no saveable redaction project/session or unsaved-work prompt. Export and verify your output before closing; reopen the original to start over. |
+| 1 | **Select PDF** | Opens a file picker. A new file resets the page, boxes and checked-page markers; current identifiers, suggestion settings and output mode are retained. Cancel leaves the current document open. |
+| 2 | **Refresh suggestions** | Repeats analysis using the current identifiers and settings, adding suggestions while preserving existing boxes. |
+| 3 | **Previous** | Moves back one page, stopping at the first page. |
+| 4 | **Next / Last page** | Moves forward one page. At the end of the document, the label becomes **Last page** and the button is disabled. |
+| 5 | **Clear page regions** | Labeled **Clear page redactions** in the walkthrough. Removes all boxes on the displayed page, including manual boxes and suggestions. Other pages are unchanged. There is no undo; a later refresh can add suggestions back. |
+| 6 | **Mark checked (optional)** | Records a progress marker for the displayed page without advancing it. It is available with a current redacted preview; changes to the selection, settings or mode can clear the marker. |
+| 7 | **Export redacted copy** | Exports the whole document with the current boxes and output mode, producing a new PDF/report pair. The button is paused during processing and identifier updates. Canceling the save dialog saves nothing. |
+| 8 | **Remove institution** | Enables institution suggestions based on recognized labels or header patterns. Enabled by default. Unticking it leaves existing boxes in place. |
+| 9 | **Remove test dates** | Enables suggestions for labeled test/exam/administration dates and matching numeric dates, including history dates. Enabled by default. Unticking it leaves existing boxes in place. |
+| 10 | **Show redacted page (black boxes)** | Switches between the redacted preview and the original page with selection overlays. Enabled by default. It changes the display, not the selected boxes or output mode. |
+| 11 | **Known identifiers (one per line)** | Accepts names, IDs or other strings, ignoring blank lines and surrounding whitespace. Edits refresh suggestions automatically. Matching ignores letter case; terms longer than 200 characters are unsupported by the matching path. |
+| 12 | **Advanced options** | Shows or hides the output-mode radio buttons. Hiding the panel retains the selected mode. |
+| 13 | **Selectable text (best effort)** | The default output mode: rendered page images with a newly reconstructed, invisible searchable text layer. |
+| 14 | **Image-only (no text layer)** | Outputs rendered page images without a searchable text layer. Text selection, copying and screen-reader access to page text are unavailable. |
+| 15 | **Mode warning and status message** | Shows the current mode, processing progress, page number, document-wide box count, optional checked-page count, messages and saved-file location. |
+| 16 | **Page canvas and vertical scrollbar** | Displays the current page. Left-drag adds a box; right-click removes the newest overlapping box at that point. Both work in the original and redacted views while the app is ready. Boxes follow the displayed orientation. A page change or preview refresh returns the scroll position to the top. |
+| 17 | **Help → About** | Shows the release version, license information and location of matching source and third-party terms. |
+| — | **Window close (X)** | Closes the application. Selections are not stored as a reusable project/session, so opening the original again starts a new session. |
 
-Buttons and settings may be disabled while processing. The identifier field remains editable; an edit can trigger another analysis and invalidate earlier preview state. Wait until updates settle before continuing.
+The identifier field remains editable while other controls may be paused for processing. The interface has no dedicated zoom, rotate, page-jump, batch-export, box-resize or undo controls.
 
-## Suggestions and manual boxes
+## Working with suggestions and boxes
 
-Suggestions look for selected kinds of native PDF text: identifier labels such as `Name:` or `Student ID:`, email/phone patterns, long numeric identifiers, optional dates/institution patterns, and your supplied terms. Recognized layouts can add identifier-block suggestions. A suggestion can cover an entire line, including information you wanted to keep. Inspect the selected extent before exporting.
+Suggestions use native PDF text: identifier labels such as `Name:` and `Student ID:`, email/phone patterns, long numeric identifiers, the institution/date options and supplied terms. Recognized layouts can also contribute identifier-block suggestions. A suggestion may cover an entire line; right-click and redraw if a smaller selection is preferable.
 
-**Suggestion refreshes add to the existing selection.** If you erase `Alex Example` from the identifier field, a box already covering that name stays selected. Likewise, removing a suggested box and later refreshing may add it back. To reduce a selection, right-click unwanted boxes, or clear the current page and redraw. Reopening the PDF resets all boxes but also discards manual work and checked markers.
+Refreshes are additive. For example, removing `Alex Example` from the identifier field leaves any box already covering that name in place. To reduce the selection, remove individual boxes or use **Clear page regions** and redraw. Refreshing later may add those suggestions again. Reopening the PDF resets all boxes and checked-page markers.
 
-The original-page view displays colored overlays so you can see the underlying content. The redacted view displays blacked-out page pixels with red outlines around selected regions. Neither view proves every identifier was found. Add manual boxes on **every** page where necessary. Tiny drags of two PDF points or less in either dimension are ignored.
-
-Do not treat a recognized layout, an absence of warnings, or a high box count as evidence that a document is safe. For unfamiliar layouts and image-based pages, review manually from edge to edge. If suggestions are incomplete, the app can still allow manual redaction and export.
+In the original view, colored overlays identify the selected regions. In the redacted view, the selected areas appear black with red outlines. Tiny drags of two PDF points or less in either dimension are ignored. Pictures, scanned text, handwriting and codes can be covered with manual boxes.
 
 ## Choose an output mode
 
 | | Selectable text (best effort) | Image-only (no text layer) |
 | --- | --- | --- |
-| Visible page | Rendered pixels with selected areas blacked out | Rendered pixels with selected areas blacked out |
-| Search/copy | New invisible text layer, based on eligible extracted printable ASCII words | No extractable page text |
-| Main limitation | Hidden/occluded, misplaced or missed identifying text may remain searchable. Non-ASCII or otherwise ineligible words may be omitted; order/alignment may be imperfect. | Identifiers may remain visible or readable by external OCR/barcode tools wherever you did not select a box. |
-| Required inspection | All visible pages **and** copied/searched output text | All visible pages, pictures, codes and other identifying features |
+| Appearance | Rendered pages with the selected areas blacked out | Rendered pages with the selected areas blacked out |
+| Search and copy | A new text layer reconstructed from eligible printable ASCII words | No extractable page text |
+| Useful when | You want to retain text search/copy functionality | You need the page appearance without selectable text |
+| Text handling | A selected rectangle's intersection with a word removes that whole word from the reconstructed layer. Hidden or unselected identifying text may remain in that layer. Non-ASCII or otherwise ineligible words may be omitted, and text order/alignment can differ from the original. | All page content is represented as images. |
 
-Both modes create a fresh PDF rather than copying original PDF objects. Source metadata, attachments, annotation/form/action objects, bookmarks, source IDs and previous PDF revisions are not carried across. **Visible annotation and form appearances become page pixels**, so identifying content in those appearances still needs a box. Interactive forms, comments, links and bookmarks do not survive as their original interactive objects.
+**Best Effort note:** Automatic suggestions may miss identifiers. Selectable output retains a text layer; image-only output does not. Scanned text is not detected automatically because the app does not use OCR.
 
-In selectable mode, an extracted word touching a selected rectangle is omitted as a whole from the reconstructed layer; partial-word selection can therefore remove more searchable text than the visible box suggests. This is not a guarantee that other hidden text is absent. Image-only is useful when you do not need selectable text, but neither mode determines whether a document is anonymous or suitable to share.
+Both modes create a fresh PDF. Source metadata, attachments, annotation/form/action objects, bookmarks, source IDs and earlier revisions are not copied. Visible form and annotation appearances become page pixels; their original interactive objects are not retained.
 
-## Files you receive
+## Output files and location
 
-For a destination named `redacted-copy.pdf`, a successful export normally creates:
+Choosing `redacted-copy.pdf` normally produces these two files in the selected folder:
 
 ```text
 redacted-copy.pdf
 redacted-copy.verification.json
 ```
 
-If either filename exists, the app tries `redacted-copy-1.pdf` and `redacted-copy-1.verification.json`, then the next free number. It preserves the source and existing outputs. Check the status for the **actual** names; an older exported copy does not update when you edit boxes.
+If either filename exists, the app uses the first free numbered pair, such as `redacted-copy-1.pdf` and `redacted-copy-1.verification.json`. The original and existing outputs are preserved. The status message gives the actual names and location.
 
-The JSON report records the mode (`best-effort-text` or `best-effort-raster`), input/output SHA-256 hashes, page count, box count, optional checked-page count, integrity checks, text diagnostics, word counts and a content warning. It records the number of supplied identifier terms, not their literal values or the source pathname. Hashes still identify particular file contents; keep the report with your own review records and consider whether you need to share it at all.
+The PDF is the exported document. The JSON is a technical record of the export mode, input/output hashes, page and box counts, optional checked-page count, integrity checks and text diagnostics. It includes the number of known-identifier terms, not their literal values or the source pathname. It can be retained alongside the PDF as an export record.
 
-The report's status is:
+If you make further adjustments in the app, export again to create another pair; an earlier exported PDF does not update automatically.
 
-```text
-BEST_EFFORT_EXPORTED_INTEGRITY_CHECKS_PASSED_CHECK_CONTENT
-```
+<details>
+<summary>Understanding the verification report</summary>
 
-This means the engine's required output integrity checks passed, including checks on the generated object graph and selected black pixels. It does **not** mean all sensitive information was selected. `mandatory_review` is `false`; `pages_marked_checked` is a user progress count. The `text_diagnostics` entries (extractor agreement and text-box alignment) are diagnostic and are **not mandatory pass gates** for selectable-text export. Read the content warning and inspect the PDF regardless of these values.
+The report status is `BEST_EFFORT_EXPORTED_INTEGRITY_CHECKS_PASSED_CHECK_CONTENT`. It records successful engine checks on the generated PDF structure and selected black pixels. `mandatory_review` is `false`, and `pages_marked_checked` records the optional progress markers. The `text_diagnostics` entries describe extractor agreement and text-box alignment; they are diagnostic rather than mandatory export gates.
 
-## Verify before sharing
+</details>
 
-1. Open the exact newly saved filename in a separate PDF viewer. Compare its page count and visible content with the source. Inspect **every page**, including lower sections, headers, footers, margins, pictures, tables, logos, QR/barcodes and annotation/form appearances.
-2. Check that each intended redaction is completely black, with enough margin, and that useful content has not been unnecessarily covered. Look for names, IDs, dates, institution clues and combinations of details that could still identify someone.
-3. For **selectable text**, search for each known identifier and likely variants. Select/copy the text from every output page into a local plain-text editor and inspect it for remaining identifiers, including text that was not visibly readable. A failed search alone does not prove absence, especially with encoding or layout differences.
-4. For **image-only**, confirm that page text is not selectable/searchable and still inspect all visible pixels. External OCR or barcode readers may read identifiers that remain visible. Do not upload sensitive output to an online checker as part of this workflow.
-5. If any check is uncertain, correct the selections or choose another suitable redaction process, then repeat export and inspection. Follow your organization's disclosure rules and review requirements before sharing.
-6. Check the filename and destination too: a revealing filename is not redacted. Send only the reviewed exported PDF, rather than the original or an earlier numbered output. The app does not send files or contact recipients.
+## Troubleshooting
 
-The app's preview is a working aid. Your final check must use the **saved output**, not only the on-screen preview or JSON report.
-
-## Common problems
-
-| What you see | What to do |
+| Message or behavior | Next step |
 | --- | --- |
-| **Cannot open PDF / PDF exceeds 20 MiB / 1 to 30 pages** | Check the file type, size and page count. Use an authorized smaller/split PDF if appropriate, then inspect every resulting part. |
-| **This PDF needs a password** | Obtain an unlocked copy through an authorized process. There is no password-entry control in this app. |
-| **Little or no searchable text / no OCR / unrecognized layout or images** | Treat suggestions as incomplete. Manually inspect images, handwriting and codes and draw missing boxes. These warnings do not certify content or necessarily block Best Effort export. |
-| **Automatic suggestions were incomplete** | Manually review every page. Long/unsupported terms or difficult PDFs can defeat automatic analysis. Do not assume only the visibly missing suggestions failed. |
-| Boxes remain after deleting a term or unticking a setting | Existing boxes are deliberately retained. Remove unwanted regions manually; refresh can suggest them again. |
-| A desired box disappears after right-click | A right-click removes the newest region containing that point. There is no undo. Redraw and inspect the refreshed page. |
-| **Mark checked** is disabled | Wait for current preparation/preview; enable **Show redacted page**. A failed or stale preview cannot be marked checked. Marking is optional and unrelated to whether all identifiers were found. |
-| **Export** is disabled / updates are paused | Wait for processing and pending identifier updates to finish. Read the status if preparation fails. Export does not require checked-page markers. |
-| **Preview unavailable** | Read the reason. Export can still be attempted in Best Effort and runs its own integrity checks. If you export, carefully inspect the saved PDF separately; do not treat the missing preview as a completed review. |
-| **Source changed / settings changed / output differs from current preview** | Select the intended source again if requested, or refresh/review current settings and export again. A stale export is not saved as the current result. |
-| **Worker failed / local resource bounds / exceeded 60 seconds** | Processing is bounded for size, memory, CPU and time. Try a simpler/smaller authorized input. Repeating a failing operation does not establish a usable export. |
-| **Installed processing worker is missing** | The release requires its companion worker. Use your normal approved repair/reinstallation process; do not copy an unknown worker into the application folder. |
-| **Output integrity verification failed; nothing was saved** | Do not rely on an earlier output with the same intended name. Retry only after addressing the input/settings issue; use another suitable process if it persists. |
-| **Export failed / choose a .pdf destination / access error** | Choose a writable destination with a `.pdf` suffix, adequate space and a suitable filename. Confirm that a fresh PDF/report pair was actually saved. |
-| Search/copy misses useful text, or it looks out of order | Selectable text reconstruction is best effort and limited to eligible words. It is not OCR or faithful native-PDF reconstruction. Inspect the visual page and copied text; choose another process if you require higher text fidelity/accessibility. |
+| **Cannot open PDF / file-size or page-count limit** | Use a PDF up to 20 MiB with 1–30 pages. Large page dimensions or rendering/word budgets can also exceed local resource limits. |
+| **This PDF needs a password** | Open an unlocked copy; the app has no password-entry control. |
+| **Little or no searchable text / unrecognized layout or images / incomplete suggestions** | Continue with manual boxes for content that was not suggested. Best Effort can export unfamiliar layouts and image-based pages. |
+| Boxes remain after an identifier or setting changes | Remove them individually or clear the current page. Refreshes preserve the existing selection. |
+| **Mark checked** is disabled | Wait for preparation and enable **Show redacted page**. This marker requires a current redacted preview. |
+| **Export** is disabled / updates are pending | Wait for processing and identifier updates to finish. The status message identifies preparation errors. |
+| **Preview unavailable** | Read the status detail. Export can still be attempted; the engine runs its output checks independently. |
+| **Source changed / settings changed / output differs from current preview** | Reselect the source if requested, or refresh the current settings and export again. |
+| **Worker failed / local resource bounds / exceeded 60 seconds** | Try a smaller or simpler input. These messages indicate a processing size, memory, CPU or time limit. |
+| **Installed processing worker is missing** | Repair or reinstall the release through the normal installation process. |
+| **Output integrity verification failed; nothing was saved** | No new output was saved. Try a simpler input or a different redaction workflow if the error persists. |
+| **Export failed / choose a .pdf destination / access error** | Choose a writable folder, a `.pdf` suffix and an available destination with enough space. |
+| Useful text is missing from search/copy or appears out of order | This reflects the selectable-text reconstruction described in the mode comparison. The page appearance and reconstructed text are separate parts of the output. |
 
 ## Version and illustration notes
 
-Control labels and behavior were checked against the public source at release tag [v0.9.2-evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/tree/v0.9.2-evaluation), commit `93e41b2e4ba1b7b1415ff437209e826202a36ab6`: [GUI entry point](../app/release_gui.py), [Best Effort app](../app/best_effort_app.py), [workflow](../app/ui_workflow.py), [canvas controls](../app/ui_base.py), [output engine](../app/best_effort_engine.py), and [file naming](../app/export_files.py).
+The control reference follows [v0.9.2-evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/tree/v0.9.2-evaluation), source commit `93e41b2e4ba1b7b1415ff437209e826202a36ab6`. The interface map is a schematic with [editable SVG source](images/interface-map.svg); the PDF example uses fictional content. Neither figure is a native GUI screenshot.
 
-The interface map is a documentation schematic, with fictional content only; its [editable SVG source](images/interface-map.svg) is included. The PDF example uses generated fictional content only. No real reports, owner documents, system paths or screenshots of other applications are included.
+The video uses cropped interface captures with arrows and a fictional example of manual selection. It is separate from the interface map and PDF illustration above.
 
-Documentation checks exercised the actual source GUI with its window kept withdrawn: file preparation and previews, control labels/defaults, additive refresh, optional checking and invalidation, original/redacted views, navigation, clear-page behavior, advanced-panel and mode changes, drawing/right-click removal, and PDF/report export. Synthetic two-page exports passed required engine integrity checks in both modes, with zero pages marked checked; extracted fixture names/IDs were absent and image-only output had no extractable text. This is limited source-level testing with the available PyMuPDF 1.28.0 runtime, not testing of the frozen 1.28.2 release or installer. Native GUI screenshots and interactive desktop validation were unavailable in the documentation environment; the figures are explicitly labeled accordingly.
+<details>
+<summary>Source and documentation verification</summary>
 
-This version has two Best Effort modes; legacy strict hybrid/native reconstruction options and their guarantees are excluded. See [README](../README.md), [building instructions](../BUILDING.md) and [licensing](../LICENSING.md) for release context.
+Behavior is documented from the [GUI entry point](../app/release_gui.py), [Best Effort app](../app/best_effort_app.py), [workflow](../app/ui_workflow.py), [canvas controls](../app/ui_base.py), [output engine](../app/best_effort_engine.py) and [file naming](../app/export_files.py).
+
+Documentation tests exercised the source GUI with its window withdrawn, including preparation, previews, control states, suggestions, progress markers, navigation, drawing/removal, modes and PDF/report export. Two-page synthetic exports passed required integrity checks in both modes. This used the available PyMuPDF 1.28.0 runtime; the frozen release uses 1.28.2. Native screenshot capture and interactive installer validation were outside that test coverage. Build and evaluation details are in [BUILDING.md](../BUILDING.md).
+
+</details>

@@ -1,0 +1,39 @@
+1
+00:00:03,000 --> 00:00:10,168
+Begin with Select PDF and choose the document you want to redact. The page opens in the main viewing area, with the controls above it.
+
+2
+00:00:10,168 --> 00:00:17,549
+Enter names or identifiers in the text field, one per line. Suggestions update automatically as you type, and matching ignores letter case.
+
+3
+00:00:17,549 --> 00:00:24,675
+Use Remove institution and Remove test dates to include those categories. The Refresh suggestions button is also available in the toolbar.
+
+4
+00:00:24,675 --> 00:00:30,221
+Turn on Show redacted page to see the black-box preview. Toggle it off to return to the original view as you work.
+
+5
+00:00:30,221 --> 00:00:38,625
+To add a redaction manually, drag a box over the relevant area. Right-click a box to remove it. This illustration uses sample information.
+
+6
+00:00:38,625 --> 00:00:45,281
+Previous and Next move between pages. Clear page redactions removes the boxes on the current page if you want to start that page again.
+
+7
+00:00:45,281 --> 00:00:51,169
+Mark checked provides an optional way to keep track of your progress through the document. You can use it as you finish each page.
+
+8
+00:00:51,169 --> 00:00:58,081
+Open Advanced options to choose the output format: Selectable text or Image-only. Image-only creates pages without a text layer.
+
+9
+00:00:58,081 --> 00:01:05,377
+When your selections are ready, choose Export redacted copy. Save it with a distinct filename so the original and exported versions are easy to distinguish.
+
+10
+00:01:05,377 --> 00:01:11,480
+Open the exported PDF to see the finished result. You now have a separate redacted version, with the original retained for reference.

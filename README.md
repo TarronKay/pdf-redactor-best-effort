@@ -1,28 +1,37 @@
 # PDF Redactor Best Effort 0.9.2
 
-Unsigned Windows 10/11 x64 evaluation candidate for local PDF redaction. This public build supports Best Effort selectable text and image-only output. Legacy strict hybrid/native reconstruction is excluded.
+A Windows desktop app for removing selected information from PDFs. Open a document, adjust the suggested redaction boxes, and export a separate copy with selectable text or image-only pages. Processing stays on your computer; the app does not upload documents.
 
-**Export does not prove anonymity.** Best Effort text may retain hidden, white, occluded, misplaced or unselected identifying text. Image-only output omits searchable text but still needs complete visible selection. Inspect every exported page and its searchable text before sharing. Page checking is optional. Processing stays local; no cloud OCR or upload is used. No NBME affiliation or endorsement is claimed.
+## Video walkthrough
 
-## How to use the app
+[![Watch the 75-second PDF Redactor walkthrough](docs/media/redactor-walkthrough-poster.jpg)](https://raw.githubusercontent.com/TarronKay/pdf-redactor-best-effort/main/docs/media/redactor-professional-walkthrough-Wyatt.mp4)
 
-**[Read the illustrated user guide →](docs/USER-GUIDE.md)** for the workflow, a numbered interface map, every GUI control, output modes, saved files, troubleshooting and the checks to perform before sharing an exported PDF.
+**[Watch or download the MP4](https://raw.githubusercontent.com/TarronKay/pdf-redactor-best-effort/main/docs/media/redactor-professional-walkthrough-Wyatt.mp4)** · [Captions (SRT)](docs/media/redactor-professional-walkthrough-captions.srt)
 
-## Installer and exact matching source
+A 75-second walkthrough using actual interface captures, arrows and a fictional selection example, with Wyatt AI narration. The thumbnail opens the video separately; this README uses a play link rather than an inline player.
 
-Proposed release: [v0.9.2-evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/releases/tag/v0.9.2-evaluation).
+## How to use it
 
-- `PDFRedactor-BestEffort-0.9.2-x64-EVALUATION.msi`: lean installer.
-- `PDFRedactor-0.9.2-CORRESPONDING-SOURCE.zip`: complete matching app, tests, packaging/build scripts, pinned dependency sources and notices.
+1. **Open your PDF** with **Select PDF**.
+2. **Set the redactions.** Enter names or IDs under **Known identifiers**, adjust the institution/date options, and use **Previous** and **Next** to move through the pages. Drag to add a box; right-click to remove one.
+3. **Choose the output mode** under **Advanced options**: **Selectable text (best effort)** or **Image-only (no text layer)**.
+4. **Export redacted copy.** Choose a filename and folder. The status message gives the names and location of the saved PDF and its verification report. The original remains unchanged.
 
-The release must provide both assets adjacent at no charge. The MSI omits embedded source; installed SOURCE-INFO.txt gives the exact versioned release and source filename. This local candidate does not claim that hosting is already available. GitHub's automatically generated repository archives omit large upstream archives and are not the complete corresponding-source package. Use the complete ZIP and [BUILDING.md](BUILDING.md) to build or modify it. The ZIP's 37 official vendor archives retain public fixtures including PDFs and test keys/certificates; owner PDFs, private QA and owner-supplied scaled-sample asset fingerprint allowlists are excluded.
+**[Open the illustrated user guide](docs/USER-GUIDE.md)** for a numbered interface map, the complete control reference, output-file details and troubleshooting.
 
-## Behavior and evaluation limits
+## Download
 
-Exports use fresh rendered page pixels, outward black redaction boxes and a new PDF object graph, with optional reconstructed printable ASCII text. Any selected word intersection removes that whole word from the reconstructed layer. Visible annotation/form appearances become pixels. The output does not copy the original PDF metadata, attachments, forms or actions. New numbered PDF/JSON pairs preserve original files.
+[v0.9.2-evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/releases/tag/v0.9.2-evaluation) is an unsigned evaluation release for Windows 10/11 x64. Inputs can be up to 20 MiB and 1–30 pages.
 
-Public sample image hashes remain only for advisory warnings. The Best Effort engine, advisory layout suggestions, redaction geometry, optional checking and stale-state protections are retained. Strict report/font/image eligibility gates are removed with the excluded legacy modes; their claims do not apply to Best Effort. Inputs are limited to 20 MiB and 1–30 pages. Windows worker memory/CPU limits and controller timeouts remain enforced.
+- **Install the app:** [PDFRedactor-BestEffort-0.9.2-x64-EVALUATION.msi](https://github.com/TarronKay/pdf-redactor-best-effort/releases/download/v0.9.2-evaluation/PDFRedactor-BestEffort-0.9.2-x64-EVALUATION.msi).
+- **Build or modify it:** [PDFRedactor-0.9.2-CORRESPONDING-SOURCE.zip](https://github.com/TarronKay/pdf-redactor-best-effort/releases/download/v0.9.2-evaluation/PDFRedactor-0.9.2-CORRESPONDING-SOURCE.zip), the complete matching source package. GitHub's automatic repository archives omit the large dependency-source archives; use this ZIP with [BUILDING.md](BUILDING.md).
 
-Source regressions, independent synthetic old/new comparisons, headless constructor/thread checks and frozen-runtime checks are recorded separately during candidate review. They do not establish successful full installation, repair, removal or end-to-end GUI use on a clean recipient computer. No live installer or GUI session is run for this candidate. Native compilation of the included MuPDF source has not been validated locally; the freeze uses the pinned official PyMuPDF 1.28.2 wheel. The installer and executables are unsigned.
+For output-mode details and the short Best Effort note, see [Choose an output mode](docs/USER-GUIDE.md#choose-an-output-mode).
 
-Original code, tests and packaging are [AGPL-3.0-only](LICENSE), without warranty. Third-party licenses and Microsoft runtime terms remain separate; see [LICENSING.md](LICENSING.md) and `notices/`. Recipients retain modification and redistribution rights for the covered work.
+## Source and licensing
+
+Exports are fresh PDFs made from rendered pages, with selected areas blacked out and an optional reconstructed text layer. Source PDF metadata, attachments, forms and actions are not copied; visible form and annotation appearances become page pixels. Existing files are preserved through numbered output filenames.
+
+This build provides the two Best Effort modes; legacy strict hybrid/native reconstruction is excluded. Build dependencies, provenance and evaluation coverage are documented in [BUILDING.md](BUILDING.md) and `source-provenance/`.
+
+Original code, tests and packaging are [AGPL-3.0-only](LICENSE). Modification and redistribution rights, warranty terms and third-party terms are covered in [LICENSING.md](LICENSING.md) and `notices/`. No NBME affiliation or endorsement is claimed.
