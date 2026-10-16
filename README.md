@@ -4,6 +4,10 @@ Unsigned Windows 10/11 x64 evaluation candidate for local PDF redaction. This pu
 
 **Export does not prove anonymity.** Best Effort text may retain hidden, white, occluded, misplaced or unselected identifying text. Image-only output omits searchable text but still needs complete visible selection. Inspect every exported page and its searchable text before sharing. Page checking is optional. Processing stays local; no cloud OCR or upload is used. No NBME affiliation or endorsement is claimed.
 
+## How to use the app
+
+**[Read the illustrated user guide →](docs/USER-GUIDE.md)** for the workflow, a numbered interface map, every GUI control, output modes, saved files, troubleshooting and the checks to perform before sharing an exported PDF.
+
 ## Installer and exact matching source
 
 Proposed release: [v0.9.2-evaluation](https://github.com/TarronKay/pdf-redactor-best-effort/releases/tag/v0.9.2-evaluation).
